@@ -8,5 +8,5 @@ public interface SkillsService {
     Skills insert(Skills skill);
     Skills update(Skills name,Long id);
     Skills getOne(Long id);
-    List<Skills> getAll();
+    List<Skills> getAllSkills();
 }

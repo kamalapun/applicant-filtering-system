@@ -12,7 +12,7 @@ import javax.persistence.Id;
 public class PersonalInfo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private Long id;
     private String name;
     private String mailingAddress;
     private String email;

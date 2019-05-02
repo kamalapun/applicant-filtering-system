@@ -12,7 +12,7 @@ import javax.persistence.Id;
 public class Education {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private Long id;
     private String degree;
     private Integer year;
     private String college;

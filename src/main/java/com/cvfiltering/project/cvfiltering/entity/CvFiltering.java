@@ -9,9 +9,16 @@ import javax.persistence.Id;
 
 @Entity
 @Data
-public class Languages {
+public class CvFiltering {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String language;
+    private String name;
+    private String jobPost;
+    private String qualification;
+    private Integer experience;
+    private String skill;
+    private String interactivity;
+    private String qualified;
+
 }

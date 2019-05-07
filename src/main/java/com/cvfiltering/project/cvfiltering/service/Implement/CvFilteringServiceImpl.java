@@ -65,7 +65,8 @@ public class CvFilteringServiceImpl implements CvFilteringService {
         Double developerEntropy = 0.0;
         Double qaEntropy = 0.0;
         Double dbaEntropy = 0.0;
-
+        Double jobPostEntropy=0.0;
+        Double jobPostGain;
 
         for(CvFiltering filtering:cvFilteringlists){
             if(filtering.getQualified() == "yes"){
@@ -75,8 +76,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
             }
         }
 
-        informationGain = (-countPos/(countPos + countNeg)) * (Math.log((countPos/
-                (countPos + countNeg)))/Math.log(2));
+        informationGain = (-countPos/(countPos + countNeg)) * (Math.log((countPos/ (countPos + countNeg)))/Math.log(2))-(countNeg/(countPos + countNeg)) * (Math.log((countNeg/ (countPos + countNeg)))/Math.log(2));
 
         for(CvFiltering filtering:cvFilteringlists){
             if(filtering.getJobPost() == "Developer" &&
@@ -90,6 +90,8 @@ public class CvFilteringServiceImpl implements CvFilteringService {
 
         developerInformationGain = (-countDeveloperPos/(countDeveloperPos + countDeveloperNeg))
                 * (Math.log((countDeveloperPos/
+                (countDeveloperPos + countDeveloperNeg)))/Math.log(2))-(countDeveloperNeg/(countDeveloperPos + countDeveloperNeg))
+                * (Math.log((countDeveloperNeg/
                 (countDeveloperPos + countDeveloperNeg)))/Math.log(2));
 
         developerEntropy = ((countDeveloperPos + countDeveloperNeg)/
@@ -104,9 +106,10 @@ public class CvFilteringServiceImpl implements CvFilteringService {
             }
         }
 
-        qaInformationGain = (-countQaPos/(countQaPos + countQaNeg))
-                * (Math.log((countQaPos/
+        qaInformationGain = (-countQaPos/(countQaPos + countQaNeg)) * (Math.log((countQaPos/
+                (countQaPos + countQaNeg)))/Math.log(2))-(countQaNeg/(countQaPos + countQaNeg)) * (Math.log((countQaNeg/
                 (countQaPos + countQaNeg)))/Math.log(2));
+
         qaEntropy = ((countQaPos + countQaNeg)/
                 (countPos + countNeg))*qaInformationGain;
 
@@ -122,9 +125,15 @@ public class CvFilteringServiceImpl implements CvFilteringService {
 
         dbaInformationGain = (-countDbaPos/(countDbaPos + countDbaNeg))
                 * (Math.log((countDbaPos/
+                (countDbaPos + countDbaNeg)))/Math.log(2))-(countDbaNeg/(countDbaPos + countDbaNeg))
+                * (Math.log((countDbaNeg/
                 (countDbaPos + countDbaNeg)))/Math.log(2));
+
         dbaEntropy = ((countDbaPos + countDbaNeg)/
-                (countPos + countNeg))*qaInformationGain;
+                (countPos + countNeg))*dbaInformationGain;
+
+        jobPostEntropy=developerEntropy+qaEntropy+dbaEntropy;
+        jobPostGain=informationGain-jobPostEntropy;
 
     }
 }

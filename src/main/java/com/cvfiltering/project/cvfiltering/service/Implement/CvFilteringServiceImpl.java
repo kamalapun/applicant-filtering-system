@@ -39,33 +39,101 @@ public class CvFilteringServiceImpl implements CvFilteringService {
         return cvFilteringRepository.findAll();
     }
 
+
     @Override
     public void decisionTreeAlgorithm(InputDataDTO inputDataDTO) {
-        Double countPos=0.0;
-        Double countNeg=0.0;
-        List<String> jobPost=inputDataDTO.getJobPost();
-        List<String> qualification=inputDataDTO.getQualification();
-        List<Integer> experience=inputDataDTO.getExperience();
-        List<String> skill=inputDataDTO.getSkill();
-        List<String> interactivity=inputDataDTO.getInteractivity();
 
-        List<CvFiltering> cvFilteringList=cvFilteringRepository.findAll();
+        Double countPos = 0.0;
+        Double countNeg = 0.0;
+        List<String> posts =inputDataDTO.getJobPost();
 
+        List<CvFiltering> cvFilteringlists = cvFilteringRepository.findAll();
+        Double countJobPos = 0.0;
+        Double countJobNeg = 0.0;
 
-        for(CvFiltering filtering: cvFilteringList){
-               if(cvFilteringList.
+        Double countDeveloperPos = 0.0;
+        Double countDeveloperNeg = 0.0;
+        Double countQaPos = 0.0;
+        Double countQaNeg = 0.0;
+        Double countDbaPos = 0.0;
+        Double countDbaNeg = 0.0;
+
+        Double developerInformationGain = 0.0;
+        Double qaInformationGain = 0.0;
+        Double dbaInformationGain = 0.0;
+
+        Double developerEntropy = 0.0;
+        Double qaEntropy = 0.0;
+        Double dbaEntropy = 0.0;
+        Double jobPostEntropy=0.0;
+        Double jobPostGain;
+
+        for(CvFiltering filtering:cvFilteringlists){
+            if(filtering.getQualified() == "yes"){
+                countPos++;
+            }else{
+                countNeg++;
+            }
         }
 
+        informationGain = (-countPos/(countPos + countNeg)) * (Math.log((countPos/ (countPos + countNeg)))/Math.log(2))-(countNeg/(countPos + countNeg)) * (Math.log((countNeg/ (countPos + countNeg)))/Math.log(2));
+
+        for(CvFiltering filtering:cvFilteringlists){
+            if(filtering.getJobPost() == "Developer" &&
+                    filtering.getQualified() == "yes"){
+                countDeveloperPos++;
+            }
+            else{
+                countDeveloperNeg++;
+            }
+        }
+
+        developerInformationGain = (-countDeveloperPos/(countDeveloperPos + countDeveloperNeg))
+                * (Math.log((countDeveloperPos/
+                (countDeveloperPos + countDeveloperNeg)))/Math.log(2))-(countDeveloperNeg/(countDeveloperPos + countDeveloperNeg))
+                * (Math.log((countDeveloperNeg/
+                (countDeveloperPos + countDeveloperNeg)))/Math.log(2));
+
+        developerEntropy = ((countDeveloperPos + countDeveloperNeg)/
+                (countPos + countNeg))*developerInformationGain;
 
 
-        Double countJobPos=0.0;
-        Double countJobNeg=0.0;
+        for(CvFiltering filtering:cvFilteringlists){
+            if(filtering.getJobPost() == "QA"&& filtering.getQualified() == "yes"){
+                countQaPos++;
+            }else{
+                countQaNeg++;
+            }
+        }
+
+        qaInformationGain = (-countQaPos/(countQaPos + countQaNeg)) * (Math.log((countQaPos/
+                (countQaPos + countQaNeg)))/Math.log(2))-(countQaNeg/(countQaPos + countQaNeg)) * (Math.log((countQaNeg/
+                (countQaPos + countQaNeg)))/Math.log(2));
+
+        qaEntropy = ((countQaPos + countQaNeg)/
+                (countPos + countNeg))*qaInformationGain;
 
 
 
+        for(CvFiltering filtering:cvFilteringlists){
+            if(filtering.getJobPost() == "DBA"&& filtering.getQualified() == "yes"){
+                countDbaPos++;
+            }else{
+                countDbaNeg++;
+            }
+        }
 
+        dbaInformationGain = (-countDbaPos/(countDbaPos + countDbaNeg))
+                * (Math.log((countDbaPos/
+                (countDbaPos + countDbaNeg)))/Math.log(2))-(countDbaNeg/(countDbaPos + countDbaNeg))
+                * (Math.log((countDbaNeg/
+                (countDbaPos + countDbaNeg)))/Math.log(2));
 
+        dbaEntropy = ((countDbaPos + countDbaNeg)/
+                (countPos + countNeg))*dbaInformationGain;
 
-
+        jobPostEntropy=developerEntropy+qaEntropy+dbaEntropy;
+        jobPostGain=informationGain-jobPostEntropy;
+        System.out.println(jobPostGain);
     }
 }

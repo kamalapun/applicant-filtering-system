@@ -9,5 +9,5 @@ public interface CvFilteringService {
     CvFiltering insert(CvFiltering cvFiltering);
     CvFiltering getOne(Long id);
     List<CvFiltering> getAll();
-    public void  decisionTree(InputDataDTO inputDataDTO);
+   void decisionTreeAlgorithm(InputDataDTO inputDataDTO);
 }

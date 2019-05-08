@@ -20,5 +20,4 @@ public class CvFiltering {
     private String skill;
     private String interactivity;
     private String qualified;
-
 }

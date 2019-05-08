@@ -134,6 +134,6 @@ public class CvFilteringServiceImpl implements CvFilteringService {
 
         jobPostEntropy=developerEntropy+qaEntropy+dbaEntropy;
         jobPostGain=informationGain-jobPostEntropy;
-
+        System.out.println(jobPostGain);
     }
 }

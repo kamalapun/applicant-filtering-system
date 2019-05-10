@@ -1,6 +1,7 @@
 package com.cvfiltering.project.cvfiltering.controller;
 
 import com.cvfiltering.project.cvfiltering.entity.CvFiltering;
+import com.cvfiltering.project.cvfiltering.entity.InputDataDTO;
 import com.cvfiltering.project.cvfiltering.service.CvFilteringService;
 import com.cvfiltering.project.cvfiltering.service.Implement.CvFilteringServiceImpl;
 import org.springframework.http.HttpStatus;
@@ -36,4 +37,12 @@ public class CvFilteringController {
         return new ResponseEntity<List<CvFiltering>>(cvFilteringService.getAll(),HttpStatus.OK);
 
     }
+
+    @PostMapping("/dt")
+    public ResponseEntity<String> decisionTreeAlgorithm(@RequestBody InputDataDTO inputDataDTO){
+        cvFilteringService.decisionTreeAlgorithm(inputDataDTO);
+        return new ResponseEntity<String>("hello", HttpStatus.OK);
+
+    }
+
 }

@@ -45,7 +45,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
 
         Double countPos = 0.0;
         Double countNeg = 0.0;
-        List<String> posts =inputDataDTO.getJobPost();
+        List<String> jobPost =inputDataDTO.getJobPost();
 
         List<CvFiltering> cvFilteringlists = cvFilteringRepository.findAll();
         Double countJobPos = 0.0;
@@ -69,7 +69,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
         Double jobPostGain;
 
         for(CvFiltering filtering:cvFilteringlists){
-            if(filtering.getQualified() == "yes"){
+            if(filtering.getQualified().equals(1)){
                 countPos++;
             }else{
                 countNeg++;
@@ -80,7 +80,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
 
         for(CvFiltering filtering:cvFilteringlists){
             if(filtering.getJobPost() == "Developer" &&
-                    filtering.getQualified() == "yes"){
+                    filtering.getQualified().equals(1)){
                 countDeveloperPos++;
             }
             else{
@@ -99,7 +99,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
 
 
         for(CvFiltering filtering:cvFilteringlists){
-            if(filtering.getJobPost() == "QA"&& filtering.getQualified() == "yes"){
+            if(filtering.getJobPost() == "QA"&& filtering.getQualified().equals(1)){
                 countQaPos++;
             }else{
                 countQaNeg++;
@@ -116,7 +116,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
 
 
         for(CvFiltering filtering:cvFilteringlists){
-            if(filtering.getJobPost() == "DBA"&& filtering.getQualified() == "yes"){
+            if(filtering.getJobPost() == "DBA"&& filtering.getQualified().equals(1)){
                 countDbaPos++;
             }else{
                 countDbaNeg++;
@@ -139,7 +139,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
         Double countQualificationPos= 0.0;
         Double countQualificationNeg = 0.0;
         for(CvFiltering filtering:cvFilteringlists){
-            if(filtering.getQualified() == "yes"){
+            if(filtering.getQualified().equals(1)){
                 countQualificationPos++;
             }
             else{
@@ -160,7 +160,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
 
         for(CvFiltering filtering:cvFilteringlists){
             if(filtering.getQualification() == "Master" &&
-                    filtering.getQualified() == "yes"){
+                    filtering.getQualified().equals(1)){
                 countMasterPos++;
             }
             else{
@@ -177,7 +177,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
 
         for(CvFiltering filtering:cvFilteringlists){
             if(filtering.getQualification() == "Bachelor" &&
-                    filtering.getQualified() == "yes"){
+                    filtering.getQualified().equals(1)){
                 countBachelorPos++;
             }
             else{
@@ -216,7 +216,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
 
 
         for(CvFiltering filtering:cvFilteringlists){
-            if(filtering.getQualified() == "yes"){
+            if(filtering.getQualified().equals(1)){
                 countExperiencePos++;
             }
             else{
@@ -228,7 +228,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
 
         for(CvFiltering filtering:cvFilteringlists){
             if(filtering.getExperience() == 0 &&
-                    filtering.getQualified() == "yes"){
+                    filtering.getQualified().equals(1)){
                 countZeroPos++;
             }
             else{
@@ -245,7 +245,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
 
         for(CvFiltering filtering:cvFilteringlists){
             if(filtering.getExperience() == 1 &&
-                    filtering.getQualified() == "yes"){
+                    filtering.getQualified().equals(1)){
                 countOnePos++;
             }
             else{
@@ -261,7 +261,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
 
         for(CvFiltering filtering:cvFilteringlists){
             if(filtering.getExperience() == 2 &&
-                    filtering.getQualified() == "yes"){
+                    filtering.getQualified().equals(1)){
                 countTwoPos++;
             }
             else{
@@ -297,7 +297,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
         Double lowInformationGain = 0.0;
 
         for(CvFiltering filtering:cvFilteringlists){
-            if(filtering.getSkill() == "yes"){
+            if(filtering.getSkill().equals(1)){
                 countSkillPos++;
             }
             else{
@@ -308,7 +308,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
 
         for(CvFiltering filtering:cvFilteringlists){
             if(filtering.getSkill() == "high" &&
-                    filtering.getQualified() == "yes"){
+                    filtering.getQualified().equals(1)){
                 countHighPos++;
             }
             else{
@@ -325,7 +325,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
 
         for(CvFiltering filtering:cvFilteringlists){
             if(filtering.getSkill() == "medium" &&
-                    filtering.getQualified() == "yes"){
+                    filtering.getQualified().equals(1)){
                 countMediumPos++;
             }
             else{
@@ -341,7 +341,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
 
         for(CvFiltering filtering:cvFilteringlists){
             if(filtering.getSkill() == "low" &&
-                    filtering.getQualified() == "yes"){
+                    filtering.getQualified().equals(1)){
                 countLowPos++;
             }
             else{
@@ -378,7 +378,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
         Double lowInteractivityInformationGain = 0.0;
 
         for(CvFiltering filtering:cvFilteringlists){
-            if(filtering.getQualified() == "yes"){
+            if(filtering.getQualified().equals(1)){
                 countInteractivityPos++;
             }
             else{
@@ -388,7 +388,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
 
         for(CvFiltering filtering:cvFilteringlists){
             if(filtering.getInteractivity() == "high" &&
-                    filtering.getQualified() == "yes"){
+                    filtering.getQualified().equals(1)){
                 countInteractivityHighPos++;
             }
             else{
@@ -405,7 +405,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
 
         for(CvFiltering filtering:cvFilteringlists){
             if(filtering.getInteractivity() == "medium" &&
-                    filtering.getQualified() == "yes"){
+                    filtering.getQualified().equals(1)){
                 countInteractivityMediumPos++;
             }
             else{
@@ -422,7 +422,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
 
         for(CvFiltering filtering:cvFilteringlists){
             if(filtering.getInteractivity() == "low" &&
-                    filtering.getQualified() == "yes"){
+                    filtering.getQualified().equals(1)){
                 countInteractivityLowPos++;
             }
             else{

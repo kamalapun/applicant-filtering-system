@@ -30,12 +30,14 @@ public class CompanyServiceImpl implements CompanyService {
         if (companyWithOptional.isPresent()) {
             Company companyValueOptional = companyWithOptional.get();
             companyValueOptional.setName(company.getName());
-            companyValueOptional.setAddress(company.getAddress());
-            companyValueOptional.setEmail(company.getEmail());
+           // companyValueOptional.setAddress(company.getAddress());
+           // companyValueOptional.setEmail(company.getEmail());
             companyValueOptional.setPost(company.getPost());
             companyValueOptional.setQualification(company.getQualification());
             companyValueOptional.setExperience(company.getExperience());
             companyValueOptional.setSkills(company.getSkills());
+            companyValueOptional.setInteractivity(company.getInteractivity());
+
             companyValueOptional.setLanguages(company.getLanguages());
             companyValueOptional.setDescription(company.getDescription());
             return companyRepositroy.save(companyValueOptional);

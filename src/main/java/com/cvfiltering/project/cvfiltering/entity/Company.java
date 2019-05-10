@@ -16,12 +16,15 @@ public class Company {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-    private String address;
-    private String email;
+   // private String address;
+  //  private String email;
     private String post;
     private String qualification;
     private Integer experience;
     private String skills;
     private String languages;
+    private String interactivity;
     private String description;
 }
+
+

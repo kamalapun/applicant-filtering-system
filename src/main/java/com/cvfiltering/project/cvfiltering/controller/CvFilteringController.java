@@ -34,6 +34,7 @@ public class CvFilteringController {
 
     @GetMapping("/")
     public ResponseEntity<List<CvFiltering>> getAll(){
+
         return new ResponseEntity<List<CvFiltering>>(cvFilteringService.getAll(),HttpStatus.OK);
 
     }

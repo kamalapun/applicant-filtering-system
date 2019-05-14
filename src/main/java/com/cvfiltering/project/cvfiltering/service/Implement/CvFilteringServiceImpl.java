@@ -17,9 +17,11 @@ import java.util.Map;
 @Data
 public class CvFilteringServiceImpl implements CvFilteringService {
     private CvFilteringRepository cvFilteringRepository;
-    Double entropy = 0.0;
-    Double informationGain = 0.0;
-    Double gain = 0.0;
+    Double OverAllEntropy = 0.0;
+    Double OverAllInformationGain = 0.0;
+    Double OverAllGain = 0.0;
+    Double countOverAllPos = 0.0;
+    Double countOverAllNeg = 0.0;
 
     public CvFilteringServiceImpl(CvFilteringRepository cvFilteringRepository) {
         this.cvFilteringRepository = cvFilteringRepository;
@@ -43,17 +45,15 @@ public class CvFilteringServiceImpl implements CvFilteringService {
 
 
     Double getInformationGain(List<CvFiltering> cvFilteringList) {
-        Double countPos = 0.0;
-        Double countNeg = 0.0;
         for (CvFiltering filtering : cvFilteringList) {
             if (filtering.getQualified()) {
-                countPos++;
+                countOverAllPos++;
             } else {
-                countNeg++;
+                countOverAllNeg++;
             }
         }
-        return (-countPos / (countPos + countNeg)) * (Math.log((countPos / (countPos + countNeg))) / Math.log(2)) -
-                (countNeg / (countPos + countNeg)) * (Math.log((countNeg / (countPos + countNeg))) / Math.log(2));
+        return (-countOverAllPos / (countOverAllPos + countOverAllNeg)) * (Math.log((countOverAllPos / (countOverAllPos + countOverAllNeg))) / Math.log(2)) -
+                (countOverAllNeg / (countOverAllPos + countOverAllNeg)) * (Math.log((countOverAllNeg / (countOverAllPos + countOverAllNeg))) / Math.log(2));
     }
 
 
@@ -63,6 +63,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
         Double informationGain = 0.0;
         Double entropy = 0.0;
         Map<String, Double> data = new HashMap();
+
         for (CvFiltering filtering : cvFilteringlists) {
             if (filtering.getJobPost().equals(jobPost) && filtering.getQualified()) {
                 countPos++;
@@ -70,8 +71,10 @@ public class CvFilteringServiceImpl implements CvFilteringService {
                 countNeg++;
             }
         }
+
         informationGain = (-countPos / (countPos + countNeg)) * (Math.log((countPos / (countPos + countNeg))) / Math.log(2)) - (countNeg / (countPos + countNeg)) * (Math.log((countNeg / (countPos + countNeg))) / Math.log(2));
-        entropy = ((countPos + countNeg) / (countPos + countNeg)) * informationGain;
+
+        entropy = ((countPos + countNeg) / (this.countOverAllPos + this.countOverAllNeg)) * informationGain;
         data.put("informationGain", informationGain);
         data.put("entropy", entropy);
         return data;
@@ -91,7 +94,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
             }
         }
         informationGain = (-countPos / (countPos + countNeg)) * (Math.log((countPos / (countPos + countNeg))) / Math.log(2)) - (countNeg / (countPos + countNeg)) * (Math.log((countNeg / (countPos + countNeg))) / Math.log(2));
-        entropy = ((countPos + countNeg) / (countPos + countNeg)) * informationGain;
+        entropy = ((countPos + countNeg) / (this.countOverAllPos + this.countOverAllNeg)) * informationGain;
         data.put("informationGain", informationGain);
         data.put("entropy", entropy);
         return data;
@@ -112,7 +115,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
             }
         }
         informationGain = (-countPos / (countPos + countNeg)) * (Math.log((countPos / (countPos + countNeg))) / Math.log(2)) - (countNeg / (countPos + countNeg)) * (Math.log((countNeg / (countPos + countNeg))) / Math.log(2));
-        entropy = ((countPos + countNeg) / (countPos + countNeg)) * informationGain;
+        entropy = ((countPos + countNeg) / (this.countOverAllPos + this.countOverAllNeg)) * informationGain;
         data.put("informationGain", informationGain);
         data.put("entropy", entropy);
         return data;
@@ -132,7 +135,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
             }
         }
         informationGain = (-countPos / (countPos + countNeg)) * (Math.log((countPos / (countPos + countNeg))) / Math.log(2)) - (countNeg / (countPos + countNeg)) * (Math.log((countNeg / (countPos + countNeg))) / Math.log(2));
-        entropy = ((countPos + countNeg) / (countPos + countNeg)) * informationGain;
+        entropy = ((countPos + countNeg) / (this.countOverAllPos + this.countOverAllNeg)) * informationGain;
         data.put("informationGain", informationGain);
         data.put("entropy", entropy);
         return data;
@@ -152,7 +155,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
             }
         }
         informationGain = (-countPos / (countPos + countNeg)) * (Math.log((countPos / (countPos + countNeg))) / Math.log(2)) - (countNeg / (countPos + countNeg)) * (Math.log((countNeg / (countPos + countNeg))) / Math.log(2));
-        entropy = ((countPos + countNeg) / (countPos + countNeg)) * informationGain;
+        entropy = ((countPos + countNeg) / (this.countOverAllPos + this.countOverAllNeg)) * informationGain;
         data.put("informationGain", informationGain);
         data.put("entropy", entropy);
         return data;
@@ -177,7 +180,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
         Double jobPostEntropy = 0.0;
         Double jobPostGain;
 
-        informationGain = getInformationGain(cvFilteringlists);
+        this.OverAllInformationGain = getInformationGain(cvFilteringlists);
         developerInformationGain = getInformationGainEntropyForJobPost(cvFilteringlists,"Developer").get("informationGain");
         developerEntropy = getInformationGainEntropyForJobPost(cvFilteringlists,"Developer").get("entropy");
 
@@ -188,7 +191,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
         dbaEntropy = getInformationGainEntropyForJobPost(cvFilteringlists,"DBA").get("entropy");
 
         jobPostEntropy = developerEntropy + qaEntropy + dbaEntropy;
-        jobPostGain = informationGain - jobPostEntropy;
+        jobPostGain = this.OverAllInformationGain - jobPostEntropy;
         System.out.println(jobPostGain);
 
 
@@ -208,7 +211,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
         bachelorEntropy = getInformationGainEntropyForQualification(cvFilteringlists,"Bachelor").get("entropy");
 
         qualifictionEntropy = masterEntropy + bachelorEntropy;
-        qualificationGain = informationGain - qualifictionEntropy;
+        qualificationGain = this.OverAllInformationGain - qualifictionEntropy;
         System.out.println(qualificationGain);
 
 
@@ -235,7 +238,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
         twoEntropy =getInformationGainEntropyForExperience(cvFilteringlists,2).get("entropy");
 
         experienceEntropy = zeroEntropy + oneEntropy + twoEntropy;
-        experienceGain = informationGain - experienceEntropy;
+        experienceGain = this.OverAllInformationGain - experienceEntropy;
 
 
 
@@ -260,7 +263,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
         lowEntropy =getInformationGainEntropyForSkill(cvFilteringlists,"Low").get("entropy");
 
         skillEntropy = highEntropy + mediumEntropy + lowEntropy;
-        skillGain = informationGain - skillEntropy;
+        skillGain = this.OverAllInformationGain - skillEntropy;
 
 
         Double highInteractivityInformationGain = 0.0;
@@ -285,7 +288,13 @@ public class CvFilteringServiceImpl implements CvFilteringService {
 
         interactivityEntropy = highInteractivityEntropy + mediumInteractivityEntropy
                 + lowInteractivityEntropy;
-        interactivityGain = informationGain - interactivityEntropy;
+        interactivityGain = this.OverAllInformationGain - interactivityEntropy;
+
+
+
+         Double maxm=Math.max(jobPostGain,Math.max(qualificationGain,Math.max(experienceGain,Math.max(skillGain,interactivityGain))));
+
+        System.out.println("Root node is :"+maxm);
 
 
     }

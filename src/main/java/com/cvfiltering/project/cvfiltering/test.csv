@@ -1,0 +1,10 @@
+id,email_address,name,job_post,qualification,experience,skill,interactivity
+1,abc@gmail.com,ABC,Q.A,Master,5,High,High
+2,efg@gmail.com,efg,Developer,Bachelor,0,Low,Low
+3,aarati4@gmail.com,Abc shrestha,Q.A,Master,1,Medium,High
+4,efh@gmail.com,asim,Q.A,Bachelor,1,Low,Medium
+5,nds@gmail.com,yogi,Q.A,Bachelor,0,Medium,Low
+6,roshan@gmail.com,roshan,Developer,Bachelor,2,Medium,medium
+7,sajan@gmail.com,Sajan,Developer,Bachelor,2,High,High
+8,chhetra@gmail.com,Chhetra,Q.A,Bachelor,2,High,High
+9,rama@gmail.com,roma,Developer,Master,1,Low,High

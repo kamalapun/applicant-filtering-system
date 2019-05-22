@@ -8,6 +8,7 @@ import lombok.Data;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -22,6 +23,10 @@ public class CvFilteringServiceImpl implements CvFilteringService {
     Double OverAllGain = 0.0;
     Double countOverAllPos = 0.0;
     Double countOverAllNeg = 0.0;
+    List<String> root = new ArrayList<>();
+
+
+
     Double countExpPos=0.0;
     Double countExpNeg=0.0;
     Double overAllExpInformationGain=0.0;
@@ -59,19 +64,6 @@ public class CvFilteringServiceImpl implements CvFilteringService {
         return (-countOverAllPos / (countOverAllPos + countOverAllNeg)) * (Math.log((countOverAllPos / (countOverAllPos + countOverAllNeg))) / Math.log(2)) -
                 (countOverAllNeg / (countOverAllPos + countOverAllNeg)) * (Math.log((countOverAllNeg / (countOverAllPos + countOverAllNeg))) / Math.log(2));
     }
-    Double getInformationGainForExperience(List<CvFiltering> cvFilteringList) {
-        for (CvFiltering filtering : cvFilteringList) {
-            if (filtering.getQualified()) {
-                countExpPos++;
-            } else {
-                countExpNeg++;
-            }
-        }
-        return (-countExpPos / (countExpPos + countExpNeg)) * (Math.log((countExpPos / (countExpPos + countExpNeg))) / Math.log(2)) -
-                (countExpNeg / (countExpPos + countExpNeg)) * (Math.log((countExpNeg / (countExpPos + countExpNeg))) / Math.log(2));
-    }
-
-
 
     Map<String, Double> getInformationGainEntropyForJobPost(List<CvFiltering> cvFilteringlists, String jobPost) {
         Double countPos = 0.0;
@@ -95,6 +87,7 @@ public class CvFilteringServiceImpl implements CvFilteringService {
         data.put("entropy", entropy);
         return data;
     }
+
 
     Map<String, Double> getInformationGainEntropyForQualification(List<CvFiltering> cvFilteringlists, String qualification) {
         Double countPos = 0.0;
@@ -312,47 +305,38 @@ public class CvFilteringServiceImpl implements CvFilteringService {
         System.out.println("Root node is :"+maximum);
 
 
-        //for branching
-//        Double zeroInformationGain1 = 0.0;
-//        Double oneInformationGain1 = 0.0;
-//        Double twoInformationGain1 = 0.0;
+        String currentRootNode=" ";
+        if(qualificationGain.equals(maximum)){
+            root.add("Qualification");
+            currentRootNode="Qualification";
+        }else if(experienceGain.equals(maximum)){
+            root.add("Experience");
+            currentRootNode="Experience";
+        }else if(jobPostGain.equals(maximum)){
+            root.add("Jobpost");
+            currentRootNode="Jobpost";
+        } else if(skillGain.equals(maximum)){
+            root.add("Skill");
+            currentRootNode="Skill";
+        }else if(interactivityGain.equals(maximum)){
+            root.add("Interactivity");
+            currentRootNode="Interactivity";
+        }
+
+        System.out.println(root.toString());
+
+//        if(currentRootNode == "experience"){
+//            List<String> experienceList = cvFilteringRepository.getUniqueColumnItems("experience");
+//            experienceList.forEach((String experience) ->{
+//                CvFiltering cvFilteringExperience = cvFilteringRepository.getByExperience(experience);
+//                 //function here
+//            });
 //
-//        Double zeroEntropy1= 0.0;
-//        Double oneEntropy1 = 0.0;
-//        Double twoEntropy1 = 0.0;
+//        }
 //
-//        Double experienceEntropy1 = 0.0;
-//        Double experienceGain1 = 0.0;
 
 
-//second iteration
-        Double developerInformationGain1 = 0.0;
-        Double qaInformationGain1 = 0.0;
-        Double dbaInformationGain1 = 0.0;
-
-        Double developerEntropy1 = 0.0;
-        Double qaEntropy1 = 0.0;
-        Double dbaEntropy1 = 0.0;
-
-        Double jobPostEntropy1 = 0.0;
-        Double jobPostGain1;
-
-        this.overAllExpInformationGain = getInformationGainForExperience(cvFilteringlists);
-
-        developerInformationGain1 = getInformationGainEntropyForJobPost(cvFilteringlists,"Developer").get("informationGain");
-        developerEntropy = getInformationGainEntropyForJobPost(cvFilteringlists,"Developer").get("entropy");
-
-        qaInformationGain1 = getInformationGainEntropyForJobPost(cvFilteringlists,"Q.A").get("informationGain");
-        qaEntropy =getInformationGainEntropyForJobPost(cvFilteringlists,"Q.A").get("entropy");
-
-        dbaInformationGain1 = getInformationGainEntropyForJobPost(cvFilteringlists,"DBA").get("informationGain");
-        dbaEntropy = getInformationGainEntropyForJobPost(cvFilteringlists,"DBA").get("entropy");
-
-        jobPostEntropy1 = developerEntropy + qaEntropy + dbaEntropy;
-        jobPostGain1 = this.overAllExpInformationGain - jobPostEntropy;
-        System.out.println(jobPostGain1);
-
-
+//        cvFilteringRepository.getByExperience();
 
 
     }

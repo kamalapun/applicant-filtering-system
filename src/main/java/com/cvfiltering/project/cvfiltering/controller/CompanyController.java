@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin
+@CrossOrigin("http://localhost:4200")
 @RestController
 @RequestMapping(value = "/api/company")
 public class CompanyController {
@@ -43,7 +43,7 @@ public class CompanyController {
         return new ResponseEntity<>(HttpStatus.OK);
     }
 
-    @GetMapping("/")
+    @GetMapping
     public ResponseEntity<List<Company>> getAll(){
         return new ResponseEntity<List<Company>>(companyService.getAll(),HttpStatus.OK);
 

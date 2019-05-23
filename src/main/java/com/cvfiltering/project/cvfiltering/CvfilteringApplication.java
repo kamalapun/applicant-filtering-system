@@ -7,6 +7,7 @@ import decisiontree.data.SimpleDataSample;
 import decisiontree.feature.Feature;
 import decisiontree.label.BooleanLabel;
 import lombok.Data;
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.supercsv.cellprocessor.Optional;
 import org.supercsv.cellprocessor.ParseBool;
@@ -28,6 +29,7 @@ import static decisiontree.feature.PredicateFeature.newFeature;
 public class CvfilteringApplication {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
+		SpringApplication.run(CvfilteringApplication.class, args);
 		List<DataSample> trainingData = readData(true);
 		DecisionTree tree = new DecisionTree();
 

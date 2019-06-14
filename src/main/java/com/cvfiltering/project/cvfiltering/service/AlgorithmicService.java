@@ -72,7 +72,7 @@ public class AlgorithmicService {
         // all go rythm
         // return returnValue;
 
-        return ;
+        return null;
 
         // write predictions to file
 
@@ -87,7 +87,7 @@ public class AlgorithmicService {
         List<DataSample> data = Lists.newArrayList();
         //for training
         if (training == true) {
-            String filename = "train_data.csv";
+            String filename = "train.csv";
             InputStreamReader stream = new InputStreamReader(new FileInputStream(new File("src/main/java/com/cvfiltering/project/cvfiltering/service" + filename)));
             try (ICsvListReader listReader = new CsvListReader(stream, CsvPreference.STANDARD_PREFERENCE);) {
 
@@ -117,7 +117,7 @@ public class AlgorithmicService {
     }
 
     private static List<DataSample> createTestDataSample(InputDataDTO inputDataDTO) {
-        String filename = "train_data.csv";
+        String filename = "train.csv";
         File file = new File("src/main/java/com/cvfiltering/project/cvfiltering/service" + filename);
         List<DataSample> dataSampleList = new ArrayList<>();
         try {

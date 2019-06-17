@@ -13,9 +13,9 @@ public class InputDataDTO {
    String email;
    String address;
    Integer phone;
-   List<String> jobPost;
-   List<String> qualification;
-   List<Integer> experience;
-   List<String> skill;
-   List<String> interactivity;
+   String jobPost;
+   String qualification;
+   Integer experience;
+   String skill;
+   String interactivity;
 }

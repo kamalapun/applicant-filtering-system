@@ -25,9 +25,7 @@ import static decisiontree.feature.PredicateFeature.newFeature;
 @Service
 public class AlgorithmicService {
 
-    public List<String> algorithmicCompution(InputDataDTO inputDataDTO) throws IOException {
-//
-
+    public String algorithmicCompution(InputDataDTO inputDataDTO) throws IOException {
         List<DataSample> trainingData = readData(true);
         DecisionTree tree = new DecisionTree();
 
@@ -43,42 +41,9 @@ public class AlgorithmicService {
         tree.printTree();
 
         // read test data
-        List<DataSample> testingData = readTestData(inputDataDTO);
+        DataSample inputDataSample = createTestDataSample(inputDataDTO);
 
-//        List<String> predictions = Lists.newArrayList();
-
-        Map<String,Boolean> predicationMap = new HashMap<>();
-
-        // classify all test data
-        for (DataSample dataSample : testingData) {
-           String emailAddress = (String) dataSample.getValue("email_address").get();
-            boolean isQualified = Integer.parseInt(tree.classify(dataSample).getPrintValue()) == 1;
-            if(predicationMap.containsKey(emailAddress)) {
-                boolean isPreviousResultQualified = predicationMap.get(emailAddress);
-                predicationMap.put(emailAddress, isQualified && isPreviousResultQualified);
-            }else {
-                predicationMap.put(emailAddress, isQualified);
-            }
-        }
-
-        List<String> returnValue = new ArrayList<>();
-        Set<Map.Entry<String, Boolean>> entrySet = predicationMap.entrySet();
-
-        for (Map.Entry<String, Boolean> entry:entrySet){
-            if(entry.getValue()) {
-                returnValue.add(entry.getKey());
-            }
-        }
-        // all go rythm
-        // return returnValue;
-
-        return null;
-
-        // write predictions to file
-
-
-
-
+        return tree.classify(inputDataSample).getPrintValue();
     }
 
 
@@ -96,7 +61,6 @@ public class AlgorithmicService {
 
                 List<Object> values;
                 while ((values = listReader.read(getProcessors(training))) != null) {
-                    //                System.out.println(String.format("lineNo=%s, rowNo=%s, data=%s", listReader.getLineNumber(), listReader.getRowNumber(), values));
                     data.add(SimpleDataSample.newSimpleDataSample("qualified", header, values.toArray()));
                 }
             }
@@ -106,46 +70,18 @@ public class AlgorithmicService {
         }
     }
 
-    private static List<DataSample> readTestData(InputDataDTO inputDataDTO) {
-        List<String> jobpost = inputDataDTO.getJobPost();
-        List<String> qualification = inputDataDTO.getQualification();
-        List<Integer> experience = inputDataDTO.getExperience();
-        List<String> skill = inputDataDTO.getSkill();
-        List<String> interactivity = inputDataDTO.getInteractivity();
+    private static DataSample createTestDataSample(InputDataDTO inputDataDTO) {
+        String[] header = {"job_post", "qualification", "experience", "skill", "interactivity"};
 
-        return createTestDataSample(inputDataDTO);
-    }
+        String[] sampleDataValue = new String[5];
 
-    private static List<DataSample> createTestDataSample(InputDataDTO inputDataDTO) {
-        String filename = "train.csv";
-        File file = new File("src/main/java/com/cvfiltering/project/cvfiltering/service" + filename);
-        List<DataSample> dataSampleList = new ArrayList<>();
-        try {
+        sampleDataValue[0] = inputDataDTO.getJobPost();
+        sampleDataValue[1] = inputDataDTO.getQualification();
+        sampleDataValue[2] = String.valueOf(inputDataDTO.getExperience());
+        sampleDataValue[3] = inputDataDTO.getSkill();
+        sampleDataValue[4] = inputDataDTO.getInteractivity();
 
-            BufferedReader br = new BufferedReader(new FileReader(file));
-            String[] header = {"id", "job_post", "qualification", "experience", "skill", "interactivity"};
-
-            String line = br.readLine();
-            line = br.readLine();
-            while (line != null) {
-                String[] records = line.split(",");
-                String[] sampleDataValue = new String[5];
-                for (String jobpost : inputDataDTO.getJobPost()) {
-                    sampleDataValue[0] = records[0];
-                    sampleDataValue[1] = jobpost;
-                    sampleDataValue[2] = records[2];
-                    sampleDataValue[3] = records[3];
-                    sampleDataValue[4] = records[4];
-                    sampleDataValue[5] = records[5];
-                }
-                dataSampleList.add(SimpleDataSample.newSimpleDataSample("qualified", header, sampleDataValue));
-                line = br.readLine();
-            }
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return dataSampleList;
+        return SimpleDataSample.newSimpleDataSample("qualified", header, sampleDataValue);
     }
 
 

@@ -1,0 +1,614 @@
+id,email_address,name,job_post,qualification,experience,skill,interactivity,qualified?
+1,letsgo@gmail.com,Ashmi,Developer,Bachelor,1,Low,Medium,0
+2,punkamala197@gmail.com,Kamala Pun,Developer,Bachelor,0,Medium,Medium,1
+3,punjuna123@gmail.com,Juna,Developer,Bachelor,0,Medium,High,1
+4,misspun.shine123@gmail.com,Komal Magar,Q.A,Master,2,High,High,1
+5,hellonepal@gmail.com,selena,DBA,Master,1,Medium,High,1
+6,sussh4@gmail.com,Sushma khadka,Developer,Bachelor,2,High,High,1
+7,fnpnepal@gmail.com,Samaresh karki,DBA,Bachelor,1,Medium,High,1
+8,nain2@gmail.com,Naina khatiwada,Developer,Master,1,Medium,Medium,1
+9,kritikabasnet1@gmail.com,Kritika Basnet,Developer,Master,1,Low,Low,0
+10,yello455gmail@gmail.com,sambhav,Developer,Master,2,High,High,1
+11,aarati4@gmail.com,Aarati shrestha,Q.A,Master,1,Medium,High,1
+12,Anjankhadka1@gmail.com,Anjan Khadka ,Q.A,Bachelor,1,Medium,Medium,1
+13,sushma2khadka@gmail.com,Sushma Khadka ,Q.A,Master,2,High,High,1
+14,waglesatish59@gmail.com,Satish Wagle,DBA,Bachelor,0,Medium,Medium,1
+15,suicidal12@gmail.com,subhi,Q.A,Bachelor,1,Low,Medium,0
+16,nabin.shahi4312@gmail.com,Nabin Shahi,Q.A,Bachelor,0,Medium,Low,0
+17,bhumikaaryal11@gmail.com,bhumika,DBA,Master,0,Low,Low,0
+18,sushmitaphuyal@gmail.com,Sushmita phuyal,DBA,Bachelor,0,Medium,Low,0
+19,thapasuraj404@gmail.com,Suraj Thapa,DBA,Master,0,Medium,Low,0
+20,whyinmyzone@gmail.com,yug,Q.A,Master,2,Medium,Medium,1
+21,anujvai04@gmail.com,Anuj Thapa,DBA,Bachelor,0,Low,Medium,0
+22,puskarbudhathoki@gmail.com,Puskar Budhathoki,Developer,Master,2,High,High,1
+23,rabinakh301@gmail.com,Rabina Khatiwada,Developer,Bachelor,0,High,High,1
+24,sammankhdk@gmail.com,Samman,Q.A,Master,1,Medium,Low,0
+25,Khatiwadarabu302@gmail.com,Rabina Khatiwada,Q.A,Master,2,High,Medium,1
+26,kcanita5@gmail.com,Anita Kc ,Q.A,Bachelor,0,Low,Low,0
+27,asterbeta@gmail.com,Raisha,DBA,Master,0,Low,Low,0
+28,liberalnepal@gmail.com,ganga,Q.A,Bachelor,1,Low,Medium,0
+29,Sunita9cheetri@gmail.com,Sunita Chhetri,DBA,Bachelor,1,Medium,Low,1
+30,Saina5rima@gmail.com,Saina Rimal,Developer,Bachelor,0,Low,Low,0
+31,Eltigershift@gmail.com,sadhikshya,DBA,Bachelor,1,Medium,High,1
+32,whysoshy302@gmail.com,Sharmila Nepal,DBA,Bachelor,0,Low,Low,0
+33,parbati4adhikari@gmail.com,Parvati adhikari ,DBA,Master,0,Medium,Low,0
+34,subeskhsyasinha@gmail.com,subeskhsya,Q.A,Master,2,Medium,Medium,0
+35,Riskylife55@gmail.com,Risha,Q.A,Bachelor,1,Medium,High,1
+36,swiftflow@gmail.com,Samita,DBA,Master,0,Low,Medium,0
+37,ramu.bhurtel2014@gmail.com,Ramu Bhurtel ,Developer,Bachelor,1,Medium,High,1
+38,heellonepal3@gmail.com,sweta,Q.A,Bachelor,1,Medium,Medium,1
+39,Heartymaya@gamil.com,amita,Q.A,Bachelor,1,Low,Low,0
+40,Auslife123@gmail.com,robinhood,Q.A,Master,2,Medium,Medium,1
+41,g5official.nepal@gmail.com,Victor poudel,DBA,Master,2,High,High,1
+42,seenjev@gmail.com,Sanju khadka,Developer,Bachelor,1,Medium,Medium,1
+43,maharjan.anish35@gmail.com,Anish Maharjan,DBA,Bachelor,0,Low,Medium,0
+44,sichusharma1130@gmail.com,Sichu Sharma,Q.A,Master,2,Medium,Medium,1
+45,Ranjana@gmail.com,Ranjana Dangol,Q.A,Master,1,High,Low,1
+46,thapasusil53@gmail.com,Susil Thapa,DBA,Bachelor,2,Medium,Medium,1
+47,Kalpanarani@gmail.com,Kalyan’s Godar,DBA,Bachelor,0,Low,Medium,1
+48,sanjeevroka8@gmail.com,Sanjeev Roka,DBA,Bachelor,1,Medium,Medium,1
+49,pp972276@gmail.com,Sujan Thapa,Q.A,Bachelor,2,High,High,1
+50,rockstar.akhilesh012@gmail.com,Akhilesh Thapa,Developer,Master,2,Medium,Medium,1
+51,tanbicall@gmail.com,TanbiCall@gmail.com,Developer,Master,1,High,Medium,1
+52,bishnubabur@gmail.com,Bishnu Roka,Q.A,Bachelor,1,Medium,Medium,1
+53,sariya@gmail.com,Saruya tanakar,DBA,Master,2,Low,Medium,1
+54,amoshsapkota@gmail.com,Namuna Sapkota,Q.A,Master,1,Medium,Medium,1
+55,giriyamnath@gmail.com,Yama Nath Giri,Developer,Master,2,High,High,1
+56,roka.ishwor777@gmail.com,Ishwor Roka,Q.A,Bachelor,0,Low,Low,1
+57,sinashi@gmail.com,Sinashi rai,DBA,Bachelor,0,High,Low,1
+58,binunani19997@gmail.com,Binu Pariyar,DBA,Master,0,Low,Low,0
+59,Dilbar@gmail.com,Dilip pandey,Q.A,Master,2,Medium,Medium,1
+60,sajana11@gmail.com,Sajana Khadka,Developer,Master,2,High,Medium,1
+61,manik.gurung@gmail.com,Manik Gurung,DBA,Master,0,Medium,Medium,1
+62,Roohi22@gmail.com,Rohini Kc,Q.A,Master,0,Low,Low,0
+63,Sanjeepkc1@gmail.com,Sanjeep KC,DBA,Bachelor,1,Medium,Medium,1
+64,bhimsen187@gmail.com,Bhimsen Shrestha,DBA,Master,0,Low,Low,0
+65,sarinathapa54@gmail.com,Sarina Thapa,Q.A,Bachelor,1,Medium,Low,0
+66,gajurel.radhakrishna@gmail.com,RadhaKrishna Gajurel,DBA,Master,2,High,High,1
+67,manisha00@gmail.com,Manisha Rai,Q.A,Bachelor,0,Low,Low,0
+68,diparyal22@gmail.com,Dip Aryal,Developer,Bachelor,1,Medium,Low,0
+69,Hema0@gmail.com,Hema Gurung,Developer,Master,0,Low,Low,0
+70,Mamta100@gmail.com,Mamata  gurung ,DBA,Bachelor,0,High,High,1
+71,hellonepal@yahoo.com,Sagar Ghimire,Q.A,Bachelor,0,Medium,Low,0
+72,happysuman@gmail.com,Suman Sigdel,Q.A,Master,1,High,Medium,1
+73,sigdelsujan@gmail.com,Sujan Sigdel,DBA,Master,1,Medium,Low,0
+74,bipesh67@gmail.com,Bipesh Shakya,Q.A,Bachelor,1,Medium,Medium,0
+75,abina01@gmail.com,Abina Aryal,DBA,Bachelor,0,Low,Low,0
+76,alina0@gmail.com,Alina aryal,Q.A,Master,2,High,Low,1
+77,thapasusil53@gmail.com,Susil Chhetri,Developer,Master,0,Medium,Low,1
+78,ramchandra11@gmail.com,Ramchandra Khatiwada,DBA,Master,2,High,High,1
+79,bimalakh2@yahoo.com,Bimala Khatiwada,Q.A,Bachelor,1,Medium,Medium,1
+80,billgates@microsoft.com,Ayush Karki,Q.A,Master,2,High,High,1
+81,rabi1@yahoo.com,Rabi Khatiwada,DBA,Master,1,High,Medium,1
+82,nabinmagar51@gmail.com,Nabin Magar,Q.A,Master,0,High,High,1
+83,prajwolthapa0710@gmail.com,Prajwol Thapa,Developer,Bachelor,2,Medium,Low,0
+84,sajandongol@gmail.com,Sajan Dangol,DBA,Bachelor,0,Low,Low,0
+85,abin5@gmail.com,Abin Aryal,Q.A,Bachelor,2,Low,Low,0
+86,kritimaosti22@gmail.com,Kritima Osti,Developer,Bachelor,1,Low,Medium,0
+87,Laxman55@gmail.com,Laxman Thapa,Developer,Master,2,Medium,High,1
+88,khadkasagar97@gmail.com,Sagar Chhetri,Q.A,Master,1,Medium,Low,0
+89,brjsshakya999@gmail.com,Binaya Shakya,Q.A,Master,2,Low,High,0
+90,vijaydhakal48@gmail.com,Vijay Dhakal,DBA,Bachelor,2,High,Medium,1
+91,salinnakarmi07@gmail.com,Salina Nakarmi,DBA,Bachelor,0,Low,High,0
+92,sandeepmajhi95@gmail.com,Sandeep Maharjan,Q.A,Master,1,Medium,High,1
+93,punsavin@gmail.com,Sabin Pun,Developer,Bachelor,0,Low,Medium,0
+94,its_me_ayush@outlook.com,Ayush Khatiwada,Developer,Bachelor,2,High,High,1
+95,rabutondon@gmail.com,Rabu Tondon,DBA,Bachelor,1,High,High,1
+96,dipshikhag17@gmail.com,Dipshika Giri,Developer,Bachelor,2,High,High,1
+97,aryalbhumika13@gmail.com,Bhumika Aryal,DBA,Master,1,Medium,High,1
+98,hrithjack31@gmail.com,Sali Shrestha,Developer,Bachelor,2,Medium,High,1
+99,Niteshkc101@gmail.com,Nitesh Kc,Q.A,Bachelor,0,Medium,Low,0
+100,xiaonai@gmail.com,Indira,Developer,Bachelor,0,Low,Low,1
+101,rajuthechalise@gmail.com,Raju Chalise,Q.A,Bachelor,1,Medium,Low,0
+102,diya.dangol15@gmail.com,Diya Dangol,Q.A,Bachelor,0,Medium,Low,0
+103,aartibhattarai8@gmail.com,Aarati Bhattarai,DBA,Bachelor,0,Medium,Low,0
+104,shankarbhattarai913@gamil.com,Shankar Bhattarai,Developer,Bachelor,0,Low,Medium,0
+105,lisanakarmi23@gmail.com,Lisa Nakarmi,Q.A,Master,0,Medium,Medium,0
+106,dipesharyal98@gmail.com,Dipesh Aryal,DBA,Master,2,Medium,Low,0
+107,mshristi418@gmail.com,Shristi Maharjan,Q.A,Master,0,High,High,1
+108,kamalikamali@yahoo.com,Kamali kamali,Developer,Bachelor,0,Medium,Medium,1
+109,hellowsathi123@gmail.com,Sophia Magar,DBA,Master,0,Low,High,0
+110,swaprika123@gmail.com,Swaprika Gurung,Developer,Bachelor,1,Low,Low,0
+111,pudasaini.saugatt@gmail.com,0 name,Developer,Master,2,High,High,1
+112,santosh123@gmail.com,Santosh Karki,Developer,Master,0,Medium,Low,0
+113,punkhagendra22@gmail.com,Khagendra Pun,DBA,Bachelor,2,High,Medium,1
+114,sagar.budha123@gmail.com,Sagar Budha,Q.A,Master,2,Medium,High,1
+115,pun.asha113@gmail.com,Asha Pun,DBA,Bachelor,1,Low,High,0
+116,kamalikamali@yahoo.com,Kamali kamali,Developer,Bachelor,0,Medium,Medium,1
+117,saritagharti99@gmail.com,Sarita Gharti Magar,DBA,Bachelor,0,Low,High,0
+118,anita.adhakari95@gmail.com,Anita Adhakari,Q.A,Master,2,Medium,Low,0
+119,alisha.sharma321@gmail.com,Alisha Sharma,DBA,Master,0,Medium,Medium,0
+120,shree.prasad123@gmail.com,Shree Prasad Shrestha,DBA,Bachelor,0,Low,High,0
+121,marasini.anita95@gmail.com,Anita Marasini,Q.A,Bachelor,2,Low,Medium,0
+122,shresthanil17@gmail.com,Anil Shrestha,DBA,Master,0,Medium,High,0
+123,aryalrajan072@gmail.com,Rajan Aryal,Q.A,Master,2,High,Medium,1
+124,shresthashital184@gmail.com,Shital Shrestha,DBA,Master,1,Medium,Low,0
+125,acharya.sudip92@gmail.com,Sudip Acharya,Developer,Master,2,High,Medium,1
+126,rabuthapa40@yahoo.com,Rabina Thapa,DBA,Bachelor,1,High,High,1
+127,susansimkhada97@gmail.com,Susan Simkhada,Q.A,Bachelor,1,Medium,Medium,0
+128,bharatpokherl177@gmail.com,Bharat Pokherl,DBA,Master,1,Low,Medium,0
+129,pratiksha123@gmail.com,Pratiksha Kc,Q.A,Bachelor,1,Low,Low,0
+130,niharikaktwal@gmail.com,Niharika Katuwal,Developer,Bachelor,1,Medium,High,1
+131,roka.hritman90@gmail.com,Hritman Roka,Q.A,Master,1,Medium,High,1
+132,diwash.bhandari@gmail.com,Diwash Bhandari,Q.A,Bachelor,0,Medium,Low,0
+133,diya.dhital123@gmail.com,Diya Dhital,DBA,Master,2,Low,Low,0
+134,gcganesh123@gmail.com,Ganesh Gc,Developer,Bachelor,1,Medium,Low,0
+135,acharya.kamal69@gmail.com,Kamal Acharya,Q.A,Master,2,Medium,High,1
+136,parjanya57@gmail.com,Parjanya Shakya ,Developer,Bachelor,0,Medium,Medium,0
+137,anish13@gmail.com,Anish KC ,Developer,Bachelor,0,High,Medium,1
+138,sehun94@gmail.com,Oh Se-hun,Q.A,Bachelor,1,High,Medium,1
+139,baekhyun92@gmail.com,Byun Baek-hyun,Developer,Bachelor,2,High,High,1
+140,suho.weareexo@gmail.com,Kim Jun-myeon,DBA,Master,1,Medium,High,1
+141,Xiumin90@gmail.com,Kim Min-seok,Q.A,Master,2,High,High,1
+142,Tao.xoxo93@gmail.com,Huang Zitao,Q.A,Master,2,High,Medium,1
+143,kai94@gmail.com,Kim Jong-in,DBA,Master,1,High,High,1
+144,Chanyeol92@gmail.com,Park Chan-yeol,Developer,Bachelor,1,Medium,High,1
+145,Kyung-oo.do93@gmail.com,Doh Kyung-soo,Q.A,Bachelor,2,High,Medium,1
+146,sunshineddy@gmail.com,Eddy Kim,Q.A,Master,0,Medium,Low,0
+147,Kris.Wu90@gmail.com,Wu Yi Fan,Developer,Bachelor,1,Medium,Low,0
+148,Lay.Zhang91@gmail.com,Zhang Yixing,DBA,Bachelor,1,Low,High,0
+149,chen92@gmail.com,Kim Jong-dae,Q.A,Bachelor,0,High,High,0
+150,jungkook97@gmail.com,Jeon Jung-kook,Q.A,Bachelor,0,High,High,0
+151,jimin95@gmail.com,Park Ji-min,Developer,Bachelor,0,Medium,High,0
+152,blank.tae95@gmail.com,Kim Tae-hyung,DBA,Bachelor,2,High,High,1
+153,august.d93@gmail.com,Min Yoon-gi,Developer,Master,1,Medium,High,1
+154,jin.bts92@gmail.com,Kim Seok-jin,Q.A,Bachelor,1,Medium,Medium,0
+155,bts.rm94@gmail.com,Kim Nam-joon,DBA,Bachelor,0,High,High,0
+156,j.hope94@gmail.com,Jung Ho-seok,DBA,Bachelor,1,Medium,Medium,0
+157,j.hope94@gmail.com,Jung Ho-seok,DBA,Bachelor,1,Medium,Medium,0
+158,palniraj21@gmail.com,Niraj bdr. Pal,Developer,Bachelor,0,Medium,Medium,0
+159,paja11@gmail.com,bajaj,Developer,Bachelor,1,Low,Low,1
+160,samkarna@gmail.com,Sammy,Q.A,Master,2,Medium,Medium,1
+161,westlovepkr@gmail.com,Pukar,DBA,Bachelor,1,Low,Medium,0
+162,therajuchalise@icloud.com,Razzu Chalise,Developer,Bachelor,2,High,High,1
+163,zebra22@gmail.com,Irfan hasmi ,Q.A,Master,1,High,High,1
+164,swift33@gmail.com,Kalpana Thapa,DBA,Bachelor,0,Medium,Low,0
+165,divyashree44ghd@gmail.com,Divya ,Q.A,Master,1,Medium,High,1
+166,happyface33@gmail.com,Dona ,Q.A,Master,2,Medium,High,1
+167,thapakarishma12@gmail.com,Karishma Thapa,Developer,Bachelor,1,Medium,Medium,1
+168,anyasharma33@gmail.com,Anya Sharma,DBA,Bachelor,2,High,Medium,1
+169,radhikari12@yahoo.com,Rachana Adhikari,Q.A,Master,2,Medium,High,1
+170,shresthaditi444@gmail.com,Aditi Shrestha ,Developer,Master,2,Medium,High,1
+171,shresthakritika20@yahoo.com,Kritika Shrestha,Q.A,Bachelor,1,High,Medium,1
+172,manusi@gmail.com,Manusi,Developer,Bachelor,1,Medium,Medium,1
+173,rupak@gmail.com,Rupak,DBA,Master,2,Medium,Medium,0
+174,rishab1@gmail.com,Rishab,Developer,Master,2,High,Medium,1
+175,parth12@gmail.com,Parth,Developer,Bachelor,0,Medium,Medium,0
+176,priyansu2@gmail.com,Priyansu,Q.A,Master,2,High,Medium,1
+177,sushant.kc87@gmail.com,Sushant Kc,Q.A,Bachelor,1,Medium,Medium,0
+178,shiva.shrestha77@gmail.com,Shiva Shrestha,Developer,Bachelor,0,Low,Low,0
+179,shrestha.shreekrishna67@gmail.com,Shree Krishna Shrestha,Developer,Master,0,Medium,Low,0
+180,saugat.malla76@gmail.com,Saugat Malla,Developer,Master,2,Medium,High,1
+181,goma12@gmail.com,Goma Chalise,Q.A,Master,1,Low,High,0
+182,janakad@gmail.com,Janak Adhikari,DBA,Bachelor,1,Medium,Medium,1
+183,dayahang.rai52@gmail.com,Dayahang Rai,Q.A,Bachelor,1,Medium,Medium,1
+184,keshabn1@gmail.com,Keshab Neupane,Developer,Master,2,High,Low,1
+185,prajjwalt1@gmail.com,Prajjwal Khadka,DBA,Bachelor,1,Medium,Medium,1
+186,shahnir.bikram60@gmail.com,Neer Bikram Shah,DBA,Master,1,Medium,High,1
+187,kc.anmol94@gmail.com,Anmol K.C.,DBA,Bachelor,2,Low,High,0
+188,keki.adhikari123@gmail.com,Keki Adhikari,DBA,Master,0,Medium,High,0
+189,adhikari.nisha@gmail.com,Nisha Adhikari,Developer,Master,2,Low,Medium,0
+190,sahilpant@gmail.com,Sahil pant,Developer,Bachelor,1,High,Medium,1
+191,sanjip01@gmail.com,Sanjip Karki,Q.A,Master,1,Low,Low,0
+192,haribansha.acharya@gmail.com,Hari Bansha Acharya,Q.A,Bachelor,1,Medium,High,1
+193,sangitap1@gmail.com,Sangita Poudel,Q.A,Bachelor,1,High,Low,0
+194,nakarmisalina@gmail.com,Salina Nakarmi,DBA,Master,0,Low,Low,0
+195,harshadp1@gmail.com,Harshad panthi,Developer,Bachelor,1,High,High,1
+196,susil.chherti80@gmail.com,Sushil Chhetri,Developer,Master,2,Medium,High,1
+197,stharabina@gmail.com,Rabina Shrestha,Developer,Master,0,Medium,Low,0
+198,riyazthapa2@gmail.com,Riyaz Thapa,Developer,Bachelor,1,Medium,High,1
+199,priyanka.karki@gmail.com,Priyanka Karki,DBA,Master,2,High,High,1
+200,ristabasnet@gmail.com,Rista Basnet,Developer,Master,1,High,High,1
+201,sabinstha@gmail.com,sabin shrestha,Developer,Bachelor,0,Low,Medium,0
+202,rimapant1@gmail.com,Rima panta,Q.A,Master,1,Medium,Medium,0
+203,jsp100@gmail.com,JS poudel,DBA,Master,1,Low,Medium,0
+204,sajanshrestha@gmail.com,Sajan shrestha,DBA,Master,2,High,High,1
+205,sujan11@gmail.com,sujan kc,Q.A,Bachelor,0,Low,Medium,0
+206,sujanstha@gmail.com,sujan shrestha,Developer,Bachelor,1,High,Medium,1
+207,sajanaadhikari@gmail.com,Sajana Adhikari,Developer,Master,2,Medium,Low,0
+208,sigdelsuman11@gmail.com,suman sigdel,DBA,Master,0,Medium,Medium,0
+209,rayap123@gmail.com,prabin raya,Q.A,Master,2,Medium,High,1
+210,Sahiladhikari12@gmail.com,Sahil Adhikari,DBA,Bachelor,1,Medium,Medium,1
+211,khadka.swastima123@gmail.com,Swastima Khadka,Q.A,Bachelor,0,Medium,High,0
+212,Nirjapuri1@gmail.com,Nirja puri,Developer,Bachelor,1,Medium,Medium,1
+213,arjun.karki45@gmail.com,Arjun Karki,Developer,Bachelor,0,Low,High,0
+214,susmita10@gnail.com,susmita khatiwada,DBA,Bachelor,0,Medium,Medium,1
+215,Nikunjakhadka@gmail.com,Nikunja khadka,Developer,Master,1,High,Medium,1
+216,sudpkh@gmail.com,sudip khatiwada,Q.A,Bachelor,0,Medium,Medium,1
+217,sumi.khadka69@gmail.com,Sumi Khadka,DBA,Bachelor,0,High,High,0
+218,Nirajthapa@gmail.com,Niraj Thapa,Developer,Bachelor,2,Medium,Medium,1
+219,koirala.raj85@gmail.com,Raj Ballav Koirala,Q.A,Master,1,High,High,1
+220,sammy22@gmail.com,Sammy,Q.A,Master,0,Low,Low,0
+221,Nirmashiwakoti@gmail.com,Nirma Shiwakoti,Developer,Bachelor,1,High,High,1
+222,smita34@gmail.com,Smita ,Developer,Bachelor,0,Low,Low,0
+223,stutibhatyal@gmail.com,Stuti ,DBA,Master,1,Medium,High,1
+224,sitaramkattel78@gmail.com,Sitaram Kattel,Developer,Bachelor,1,Medium,High,1
+225,Muskanpoudel12@gmail.com,Muskan poudel,Developer,Bachelor,1,Medium,Medium,1
+226,chilledlife78@gmail.com,Chaman ,Q.A,Bachelor,1,Low,Low,0
+227,sanchita.luitel123@gmail.com,Sanchita Luitel,Q.A,Bachelor,1,Low,High,0
+228,coldbloodedsameer@gmail.com,Sameer,Q.A,Bachelor,1,Low,Low,0
+229,smilythapa21@gmail.com,Smily Thapa,Developer,Bachelor,1,Medium,Medium,1
+230,manandhar.melina785@gmail.com,Melina Manandhar,Q.A,Master,0,Low,High,0
+231,loneworldgan@gmail.com,Ganesh,Developer,Master,2,Medium,High,1
+232,swopnasushila@gmail.com,Sushila,Q.A,Bachelor,1,Medium,High,1
+233,moktan.zenisha321@gmail.com,Zenisha Moktan,DBA,Bachelor,0,High,High,1
+234,santosh1@gmail.com,santosh neupane,Developer,Master,1,Medium,Low,0
+235,stylishbijay@gmail.com,Bijay,DBA,Master,0,High,Low,0
+236,santoshi00@gmail.com,santoshi poudel,DBA,Master,2,Medium,Low,1
+237,karishma.manandhar154@gmail.com,Karishma Manandhar,Developer,Bachelor,2,Low,High,0
+238,shaktimanswo@gmail.com,Bhakta bahadur chapagain ,Q.A,Master,2,Medium,High,1
+239,arunima.lamsal785@gmail.com,Arunima Lamsal,DBA,Bachelor,1,Medium,High,1
+240,thugheart@gmail.com,Hari sharma ,DBA,Bachelor,0,High,Low,0
+241,muskan111@gmail.com,muskan dhital,DBA,Master,2,Medium,Medium,1
+242,asmitadh0@gmail.com,asmita dhital,DBA,Master,2,Medium,Medium,0
+243,tripti.nadakar147@gmail.com,Tripti Nadakar,Developer,Master,2,Medium,Medium,1
+244,ashishma.nakarmi514@gmail.com,Ashishma Nakarmi,Developer,Bachelor,1,Medium,Low,0
+245,prasain.deepika777@gmail.com,Deepika Prasain,DBA,Master,1,Medium,High,1
+246,bijay22@gmail.com,bijay poudel,DBA,Bachelor,2,Medium,High,1
+247,poudel.usha358@gmail.com,Usha Poudel,DBA,Master,1,Medium,Low,0
+248,sandip99@gmail.com,sandip adhikari,Q.A,Bachelor,2,Low,Low,0
+249,bikramrai.wilson71@gmail.com,Wilson Bikram Rai,Q.A,Bachelor,1,Medium,Low,0
+250,jasmine143@gmail.com,jasmine dhakal,Q.A,Bachelor,1,Low,Low,0
+251,dilipdai258@gmail.com,Dilip Rayamajhi,Q.A,Bachelor,2,High,Medium,1
+252,sunilrawal63@gmail.com, Sunil Rawal,Developer,Master,1,High,Medium,1
+253,rumba.nima75@gmail.com,Nima Rumba,Q.A,Master,2,Medium,High,1
+254,shahneer78@gmail.com,Neer Shah,DBA,Bachelor,1,Medium,Low,0
+255,paul.shah52@gmail.com,Paul Shah,Q.A,Bachelor,2,Low,Medium,0
+256,mamtarimal00@gmail.com,Mamta Rimal,Developer,Master,0,Low,Low,0
+257,Saritarimal11@gmail.com,Sarita Rimal,Developer,Bachelor,1,Medium,Medium,1
+258,mandan.shrestha77@gmail.com,Madan Krishna Shrestha,DBA,Bachelor,0,Medium,Low,0
+259,Rajanrimal22@gmail.com,Rajan Rimal,Developer,Master,2,High,Medium,1
+260,mahima.silwal7@gmail.com,Mahima Silwal,Developer,Master,2,Medium,Low,0
+261,Priyasharma41@gmail.com,Priya Sharma,Developer,Master,2,Medium,Medium,1
+262,singh.niruta71@gmail.com,Niruta Singh,DBA,Master,1,Medium,High,1
+263,malvika.subba63@gmail.com,Malvika Subba,Developer,Master,2,Medium,High,1
+264,Janaksharma@gmail.com,Janak Sharma,Developer,Master,2,High,High,1
+265,suraj.thakuri12@gmail.com,Suraj Singh Thakuri,DBA,Bachelor,2,High,High,1
+266,Aarabsharma11@gmail.com,Aarab Sharma,Q.A,Bachelor,2,Low,Low,0
+267,thapa.arpan78@gmail.com,Arpan Thapa,DBA,Bachelor,1,Low,Medium,0
+268,Asutoshbhandari2@gmail.com,Asutosh Bhandari,Developer,Master,2,Medium,Medium,1
+269,shyaron88@gmail.com,Shyron nakarmi,Developer,Bachelor,0,High,Low,0
+270,saru12@gmail.com,Saru manandhar,DBA,Master,1,Low,Medium,0
+271,upreti.nikhil9@gmail.com,Nikhil Upreti,Q.A,Master,2,High,Low,0
+272,santoshtp9@gmail.com,Santosh thapa,DBA,Master,1,Medium,High,1
+273,shristi.shrestha40@gmail.com,Shristi Shrestha,Q.A,Bachelor,0,Low,High,0
+274,reema.biswokarma70@gmail.com,Reema Biswokarma,Q.A,Master,1,Medium,High,1
+275,khatiwada.shrinkhala74@gmail.com,Shrinkhala Khatiwada,DBA,Master,0,Low,High,0
+276,amrita.acharya75@gmail.com,Amrita Acharia,Developer,Bachelor,1,Medium,Medium,1
+277,anna.sharma5@gmail.com,Anna Sharma,Q.A,Bachelor,0,Medium,Low,0
+278,raut.barsha75@gmail.com,Barsha Raut,Developer,Bachelor,1,Low,High,0
+279,samragyee.shah32@gmail.com,Samragyee RL Shah,Q.A,Master,2,Medium,High,1
+280,sahana.bajracharya53@gmail.com,Sahana Bajracharya,DBA,Bachelor,2,Medium,High,1
+281,sharmapooja45@gmail.com,Pooja Sharma,Developer,Master,1,High,Medium,1
+282,rekha.thapa18@gmail.com,Rekha Thapa,Q.A,Bachelor,2,High,Low,0
+283,najirhussain14@gmail.com,Najir Hussain,DBA,Master,0,Low,High,0
+284,garima.panta56@gmail.com,Garima Panta,Q.A,Master,1,Medium,High,1
+285,alisharai85@gmail.com,Alisha Rai,Developer,Bachelor,2,Medium,Medium,1
+286,ma0j.rc55@gmail.com,Ma0j RC,DBA,Master,1,High,Low,0
+287,sigdel.aryan62@gmail.com,Aryan Sigdel,Q.A,Bachelor,2,High,Low,0
+288,thapajharana51@gmail.com,Jharana Thapa,Developer,Bachelor,2,Medium,Low,0
+289,soniya.budha67@gmail.com,Soniya Budha,DBA,Master,1,Medium,Medium,1
+290,bipanathapa1@gmail.com,Bipana Thapa,Q.A,Bachelor,0,High,Medium,1
+291,bipin.rock23@gmail.com,Bipin Magar,Developer,Master,2,Medium,Low,0
+292,marcus.luitel21@gmail.com,Marcus Luitel,DBA,Bachelor,1,High,Low,0
+293,arya.aryal12@gmail.com,Arya Aryal,Q.A,Bachelor,0,Medium,Medium,0
+294,ayaan.bhusal21@gmail.com,Ayaan Bhusal,Developer,Master,2,Low,High,0
+295,sadiksha.sharma54@gmail.com,Sadiksha Sharma,DBA,Bachelor,0,High,High,0
+296,diksha.malla517@gmail.com,Diksha Malla,Developer,Master,2,Low,High,0
+297,gori.garima32@gmail.com,Garima Joshi,Q.A,Bachelor,2,Medium,Low,1
+298,priya.gurung25@gmail.com,Priya Gurung,DBA,Master,1,Medium,Low,0
+299,aabha.sharma54@gmail.com,Aabha Sharma,Developer,Bachelor,2,High,Medium,1
+300,muskan.budha64@gmail.com,Muskan Budha,Q.A,Master,2,Low,Low,0
+301,mohanthakur11@gmail.com,Mohan ,Q.A,Bachelor,1,Medium,Medium,1
+302,sureshmanandhar21@gmail.com,Suresh,Developer,Bachelor,0,Low,Medium,1
+303,sujatathapa23@gmail.com,Sujata Thapa,Developer,Bachelor,1,Low,Medium,0
+304,binduk393@yahoo.com,Bindu Kandel,Developer,Master,2,Medium,Low,1
+305,aryalprash86@gmail.com,Prashanti Aryal,Q.A,Bachelor,2,High,Medium,0
+306,neupanesandesh44@yahoo.com,Sandesh Neupane,Developer,Bachelor,1,Medium,High,0
+307,gyawaliprabesh132@yahoo.com,Prabesh Gyawali,DBA,Bachelor,0,Low,Medium,0
+308,sharmasandesh22@gmail.com,Sandesh Sharma,DBA,Bachelor,1,Medium,Low,1
+309,dhirajchaudhary88@gmail.com,Dhiraj Chaudhary,Developer,Bachelor,1,Medium,Medium,0
+310,adhikaroshan42@yahoo.com,Roshan Adhikari,Developer,Master,2,Medium,Medium,0
+311,saradabanjara67@gmail.com,Sarada Banjara ,Developer,Master,1,Medium,High,1
+312,devkotaritu43@yahoo.com,Ritu Devkota,Q.A,Master,2,Medium,Medium,0
+313,rojydevkota90@yahoo.com,Rojina Devkota,DBA,Bachelor,0,Medium,Low,0
+314,swopnasooman33@gmail.com,Sooman,Q.A,Master,0,Medium,Low,0
+315,kantiblack@gmail.com,Kanti moktan ,DBA,Bachelor,1,Medium,Medium,1
+316,sankarpoudel@gmail.con,Shankar poudel ,Q.A,Master,2,Medium,High,1
+317,samwell@gmail.com,Samwell tarley ,Developer,Master,1,Low,Low,0
+318,sabita42doz@gmail.com,Sabita,DBA,Bachelor,0,Medium,Medium,0
+319,levelupdon@gmail.com,Leena,DBA,Master,2,Low,Low,0
+320,sushantkx@gmail.com,Sushant,Q.A,Master,2,Low,High,1
+321,quintdipesh@gmail.com,Dipeshh,Developer,Master,2,High,Medium,1
+322,tashmikjdk4@gmail.com,Tashmi ,Developer,Master,0,Low,Low,0
+323,solopearl@gmail.com,Panna shah,Q.A,Bachelor,1,Low,Low,0
+324,denerysstormborn@gmail.com,Denerys Targaryen ,Q.A,Master,0,Low,Low,0
+325,aryastark100@gmail.com,Arya Stark ,Developer,Master,2,High,High,1
+326,sanshabadgirl@gmail.com,Sansha,Q.A,Bachelor,2,Medium,Medium,1
+327,tonystark@gmail.con,Tony stark ,Q.A,Bachelor,1,Low,Medium,0
+328,eddard@gmail.com,Edward ,Q.A,Master,1,Low,Low,0
+329,whitewalkers@gmail.com,Jonathan ,DBA,Master,1,Medium,High,1
+330,clearsky@gmail.com,Nischal ,DBA,Master,0,Low,Low,0
+331,sornabalak@gmail.con,Sworna rana,Q.A,Bachelor,1,High,High,1
+332,subhasandhya@gmail.com,Subhuman ,Q.A,Master,0,Medium,Low,0
+333,kusum001@gmail.com,kusum,Q.A,Master,1,Low,Low,0
+334,kabita111@gmail.com,kabita thapa,DBA,Bachelor,0,Medium,Medium,1
+335,sabita.pun@gmail.com,sabita pun,DBA,Bachelor,0,Medium,Medium,0
+336,manik8@gmail.com,manik ,Developer,Master,2,Medium,High,1
+337,nandini@gmail.com,nandini,Q.A,Master,1,Medium,High,0
+338,bobbybas@gmail.com,bobby basnet,DBA,Bachelor,2,Medium,High,1
+339,sagun000@gmail.com,sagun khadka,Q.A,Master,2,Medium,High,0
+340,samirt@yahoo.com,samir ,DBA,Bachelor,1,Low,Low,0
+341,dimpledon@gmail.com,dimple,Q.A,Bachelor,0,Low,Low,0
+342,khusbuoli@gmail.com,khusbu,DBA,Master,0,Low,Low,0
+343,happylady@gmail.com,happy singh,Developer,Bachelor,0,Medium,Low,0
+344,juliekdgi@gmail.com,Julie,Q.A,Master,0,Low,Medium,0
+345,lightsyou@gmail.com,Prakash ,Q.A,Bachelor,1,Low,Medium,0
+346,sagunjoshi@gmail.com,Sagun,Developer,Master,1,Medium,High,1
+347,tamang.suresh123@gmail.com,Suresh Tamang,Q.A,Bachelor,1,Medium,Medium,1
+348,kiran.thapa502@gmail.com,Kiran Thapa,Developer,Bachelor,0,Medium,Medium,0
+349,sushant.oli78@gmail.com,Sushant Oli,DBA,Master,0,Low,High,0
+350,amrit.magar52@gmail.com,Amrit Magar,DBA,Master,2,Medium,Low,0
+351,magar.amit32@gmail.com,Amit Magar,Developer,Master,1,Medium,High,1
+352,magar.sumin15@gmail.com,Sumin Magar,Q.A,Bachelor,0,Medium,Medium,0
+353,magar.sagun19@gmail.com,Sagun Magar,DBA,Master,1,Medium,Medium,1
+354,babin.bhusal17@gmail.com,Nabin Bhusal,Developer,Bachelor,2,Medium,High,1
+355,pokharel.nabin@gmail.com,Nabin Pokharel,Q.A,Master,1,Low,High,0
+356,shrijan.karki12@gmail.com,Shrijan Karki,DBA,Bachelor,0,Medium,High,0
+357,gurung.bipin15@gmail.com,Bipin Gurung,DBA,Master,2,High,Medium,1
+358,rojina.karki12@gmail.com,Rojina Karki,Developer,Bachelor,1,Low,Medium,0
+359,sabitaregmi321@gmail.com,Sabita Regmi,Q.A,Bachelor,1,Medium,Medium,0
+360,preeti.gurung21@gmail.com,Preeti Gurung,Developer,Bachelor,2,Medium,High,1
+361,gclatika16@gmail.com,Latika G.C,Developer,Bachelor,0,Medium,Low,0
+362,indira.kc16@gmail.com,Indira K.C,DBA,Master,2,Medium,Medium,1
+363,anjali.gupta5@gmail.com,Anjali Gupta,Q.A,Bachelor,0,Medium,High,0
+364,susmita.giri55@gmail.com,Susmita Giri,Developer,Master,1,Medium,High,1
+365,susil.poudel2@gmail.com,Susil Poudel,DBA,Bachelor,0,Low,Medium,0
+366,goma.poudel97@gmail.com,Goma Poudel,Q.A,Master,0,High,Low,0
+367,namita.bhusal69@gmail.com,Namita Bhusal,Developer,Master,2,Medium,High,1
+368,bhujel.sun65@gmail.com,Sun Bhujel,Q.A,Bachelor,2,High,Medium,1
+369,gurunggopi88@gmail.com,Gopi Gurung,DBA,Master,1,Medium,Low,0
+370,sabin.lama77@gamil.com,Sabin Lama,Developer,Master,2,High,Medium,1
+371,surajprajapti21@gmail.com,Suraj Prajapati,Q.A,Bachelor,1,Medium,Low,0
+372,muskan.kc7@gmail.com,Muskan Kc,DBA,Master,0,Medium,Medium,0
+373,rohit.dangol32@gmail.com,Rohit Dangol,Developer,Bachelor,2,Medium,Medium,1
+374,bhusal.suraj77@gmail.com,Suraj Bhusal,Q.A,Master,1,Medium,Low,0
+375,tamang.robin5@gmail.com,Robin Tamang,Q.A,Bachelor,0,Low,Medium,0
+376,rawat.nangita321@gmail.com,Nangita Rawat,DBA,Master,0,Medium,Low,0
+377,tamang.neema77@gmail.com,Neema Tamang,Developer,Bachelor,1,Medium,Medium,1
+378,lalita.rawat11@gmail.com,Lalita Rawat,Developer,Master,2,High,High,1
+379,budha.milan97@gmail.com,Milan Budha,Q.A,Master,1,High,High,1
+380,kiran.budha14@gmail.com,Kiran Budha,DBA,Bachelor,0,High,Medium,0
+381,sapana.pun71@gmail.com,Sapana Pun,Developer,Master,2,Medium,Low,1
+382,sagar.budha879@gmail.com,Sagar Budha Magar,DBA,Bachelor,1,Medium,High,1
+383,subash.pun96@gmail.com,Subash Pun,Q.A,Master,2,High,Medium,1
+384,aakriti.kandel51@gmail.com,Aakriti Kandel,Developer,Bachelor,0,Low,High,0
+385,aashish.kandel7@gmail.com,Aashish Kandel,DBA,Master,2,High,Medium,1
+386,nitesh.pokharel8@gmail.com,Nitesh Pokharel,Developer,Bachelor,1,High,Medium,0
+387,yogesh.punmagar1@gmail.com,Yogesh Pun Magar,Q.A,Master,2,Low,Low,0
+388,sunil.adai2@gmail.com,Sunil Adai Magar,DBA,Master,0,Medium,Low,0
+389,umeshgharti3@gmail.com,Umesh Gharti Magar,Developer,Bachelor,0,High,Low,0
+390,adai.kumar4@gmail.com,Kumar Adai,Q.A,Master,2,Medium,Low,0
+391,bhandari.deepak5@gmail.com,Deepak Bhandari,DBA,Bachelor,1,Medium,Low,0
+392,hariaryal6@gmail.com,Hari Aryal,Q.A,Master,2,Medium,High,1
+393,kayat.sandeep7@gmail.com,Sandeep Kayat,Developer,Master,0,Medium,Low,0
+394,rajat.mahat8@gmail.com,Rajat Mahat,Developer,Bachelor,1,Medium,High,1
+395,nawaraj.kandel9@gmail.com,Nawaraj Kandel,DBA,Bachelor,2,Medium,Low,0
+396,thapa.surendra10@gmail.com,Surendra Thapa,Q.A,Master,0,Medium,High,0
+397,ganeshbudha11@gmail.com,Ganesh Budha Magar,DBA,Bachelor,1,Medium,Medium,1
+398,arjun.pariyar12@gmail.com,Arjun Pariyar,Developer,Master,2,High,Medium,1
+399,bipin.kuwar13@gmail.com,Bipin Kuwar,Q.A,Bachelor,0,High,High,1
+400,milan.chhantyal14@gmail.com,Milan Chhantyal,DBA,Master,2,Medium,Low,0
+401,pun.sandesh15@gmail.com,Sandesh Pun Magar,Developer,Bachelor,1,Medium,Low,0
+402,kritimaosti22@gmail.com,Kriti Osti ,Developer,Master,2,Medium,Low,0
+403,osti@gmail.com,Osti nanu,Q.A,Bachelor,0,High,Low,1
+404,himshaka.kuwar21@gmail.com,Himshika Kuwar,Q.A,Bachelor,0,Medium,Low,0
+405,puja.thapa16@gmail.com,Puja Thapa Magar,DBA,Master,0,Low,Low,0
+406,tagausbwiwn@gmail.com,Jamina ,Q.A,Bachelor,0,Low,Medium,0
+407,feminan@gmail.com,Phoebe,Developer,Bachelor,0,Medium,Medium,0
+408,dibayviebi@gmail.com,Div ,Q.A,Bachelor,1,Low,Medium,0
+409,dyabaomwon@gmail.com,Pal shal,Developer,Master,1,Medium,Low,0
+410,lmomwina@gmail.com,Gyanu,DBA,Master,1,Medium,High,1
+411,swoyjamb@gmail.com,Swostina,Q.A,Master,1,Medium,High,1
+412,enlibksibg@gmail.com,Tara,Q.A,Master,2,Low,Low,0
+413,vgisjonn@gmail.com,Gyan,DBA,Bachelor,1,Medium,Low,0
+414,girlkobo@gmail.com,Fanny,Developer,Bachelor,2,Medium,High,1
+415,vgieninev@gmail.com,Romi ,DBA,Bachelor,1,Low,Low,0
+416,solostio@gmail.com,Sosti ,Q.A,Master,1,Medium,Medium,0
+417,fevrulna@gmail.com,Tina,Developer,Bachelor,1,High,High,1
+418,daljijgsu.@gmail.com,Asmiya ,Q.A,Bachelor,2,Medium,High,1
+419,trishna.kuwar17@gmail.com,Trishna Kuwar,Developer,Master,1,Low,Medium,0
+420,asmita.chhantyal18@gmail.com,Asmita Chhantyal,DBA,Bachelor,1,Medium,High,1
+421,krishti.budha19@gmail.com,Krishti Budha Magar,Q.A,Master,2,Medium,High,1
+422,pratikshya.pun20@gmail.com,Pratikshya Pun Magar,Developer,Master,2,High,Medium,1
+423,pravabudha21@gmail.com,Prava Budha Magar,DBA,Bachelor,0,Medium,High,1
+424,sushila.budha22@gmail.com,Sushila Budha Magar,Developer,Master,1,Medium,Low,0
+425,karishma.gharti23@gmail.com,Karishma Gharti Magar,Q.A,Bachelor,0,Low,Medium,0
+426,greeshmapun24@gmail.com,Greeshma Pun Magar,DBA,Master,2,Medium,High,1
+427,soniadaimagar25@gmail.com,Soni Adai Magar,Developer,Bachelor,1,Medium,High,1
+428,binitabudha26@gmail.com,Binita Budha Magar,Q.A,Master,0,Medium,Low,0
+429,pabitra.magar27@gmail.com,Pabitra Magar,DBA,Bachelor,1,Medium,Low,0
+430,sumangharti28@gmail.com,Suman Gharti Magar,Developer,Master,2,Medium,High,1
+431,parashgharti29@gmail.com,Parash Gharti Magar,DBA,Bachelor,1,Medium,Medium,0
+432,rajubudha30@gmail.com,Raju Budha Magar,Q.A,Master,0,Medium,High,0
+433,sunilbudha31@gmail.com,Sunil Budha Magar,DBA,Bachelor,1,Medium,Low,0
+434,kiranadai32@gmail.com,Kiran Adai Magar,Developer,Master,0,Low,Medium,0
+435,abhishekthapa33@gmail.com,Abhishek Thapa Magar,Q.A,Bachelor,2,Medium,Medium,1
+436,srijanacharya34@gmail.com,Srijan Acharya,DBA,Master,1,Medium,High,1
+437,nirmalkhanal35@gmail.com,Nirmal Khanal,Developer,Bachelor,0,High,Medium,0
+438,prabinbhandari37@gmail.com,Prabin Bhandari,Q.A,Master,1,Low,Low,0
+439,gopalgotame38@gmail.com,Gopal Gotame,DBA,Bachelor,2,Medium,Medium,0
+440,nabinadai39@gmail.com,Nabin Adai Magar,Developer,Bachelor,1,High,Medium,1
+441,nirmalchhantyal40@gmail.com,Nirmal Chhantyal,Q.A,Master,2,Medium,Low,0
+442,bhawanamagar41@gmail.com,Bhawana Magar,DBA,Bachelor,0,Low,High,0
+443,prinsha.magar42@gmail.com,Prinsha Magar,Developer,Master,1,Medium,High,1
+444,arsula.ale45@gmail.com,Arsula Ale Magar,Q.A,Bachelor,2,High,High,1
+445,rayan.gold47@gmail.com,Rayan Gold,DBA,Master,1,Medium,High,1
+446,biswash.chh@gmail.com,biswash chhantyal,Developer,Master,1,Low,Medium,1
+447,sanjog.bm@gmail.com,sanjog budha magar,Q.A,Bachelor,1,Medium,High,0
+448,thapa.kiran1@gmail.com,kiran thapa,DBA,Master,2,Low,High,0
+449,bishal.wide@gmail.com,bishal magar,DBA,Master,1,Low,Medium,0
+450,kamal0@gmail.com,kamal sarpali,DBA,Master,1,Medium,Low,0
+451,nirmal.pure@gmail.com,nirmal poudel,Q.A,Master,0,High,Medium,1
+452,sujanchhetri@gmail.com,sujan chhetri,Q.A,Bachelor,0,Low,Low,0
+453,ashish.adap@gmail.com,ashish adap,DBA,Bachelor,2,Medium,High,1
+454,anil.p@gmail.com,anil pokhrel,DBA,Master,0,Low,Low,1
+455,nishan.karki22@gmail.com,nishan karki,Q.A,Master,2,High,High,0
+456,nisha88@gmail.com,nisha thapa,DBA,Bachelor,1,Low,Medium,1
+457,sky.aakash@gmail.com,aakash thapa magar,Developer,Master,2,Medium,High,1
+458,pun.surendra@gmail.com,surendra pun,DBA,Bachelor,0,High,Medium,0
+459,prabin.p@gmail.com,prabin gharti,DBA,Bachelor,1,Low,Low,0
+460,sinirah@gmail.com,Ganesha,Q.A,Bachelor,1,Medium,High,1
+461,sushantkhatri@gmail.com,sushant khatri,Q.A,Bachelor,2,Medium,High,0
+462,anish113@gmail.com,anish rokaya,DBA,Bachelor,2,High,High,1
+463,iamspring@gmail.com,jharana poudel,DBA,Bachelor,1,Low,Low,0
+464,waitisover0w@gmail.com,pratikshya kunwar,Developer,Master,2,Medium,Medium,1
+465,amsoniye@gmail.com,soniya basnet,DBA,Master,1,High,Medium,1
+466,mayama@gmail.com,Rabindra kc,Developer,Master,1,Medium,High,1
+467,rajan01@gmail.com,rajan kunwar,DBA,Bachelor,1,Low,Low,1
+468,muskirayera@gmail.com,Adhim baniya ,Q.A,Bachelor,1,Low,Medium,0
+469,subash@gmail.com,subash mahato,Q.A,Master,1,Low,Low,0
+470,sushilgyani@gmail.com,Aastha rana,DBA,Master,1,Low,Medium,0
+471,flowersgarden@gmail.com,Ananda rai,DBA,Bachelor,2,Medium,High,1
+472,kunwar.diksha@gmail.com,diksha  kunwar,Developer,Master,2,High,Low,1
+473,sumanshetty@gmail.com,Suman,Developer,Bachelor,1,Low,Medium,0
+474,golmallife@gmail.com,Ganga pokhrel ,Q.A,Master,2,Medium,High,1
+475,subarna5@gmail.cpm,subarna khatiwada,DBA,Master,0,Medium,Low,0
+476,veyjfqmon@gmail.com,Viveka,Q.A,Master,1,High,Medium,1
+477,talllidin@gmail.com,Tanya ,Developer,Bachelor,1,Medium,High,1
+478,goodmorale@gmail.com,subarna shrestha,DBA,Master,2,Low,Medium,0
+479,aayush.adai@gmail.com,aayush adai,DBA,Bachelor,0,Medium,Medium,0
+480,yash4@gmail.com,yashkumar shrestha,DBA,Bachelor,2,Medium,Medium,0
+481,maramesh@gmail.com,ramesh tamang,Developer,Bachelor,2,High,Low,0
+482,sujanp78@gmail.com,sujan poudel,Developer,Master,1,Low,Medium,0
+483,kayats@gmail.com,sanjook kayat,Q.A,Bachelor,1,Low,Medium,0
+484,ihatefate@gmail.com,kismat bhandari,Developer,Bachelor,1,High,Low,0
+485,aswin.bhai@gmail.com,ashwin bhandari,Q.A,Master,1,High,Low,1
+486,alish.magar90@gmail.com,alish pun,DBA,Master,1,Low,Medium,1
+487,flowerme@gmail.com,pushpa basnet,DBA,Bachelor,2,Medium,Low,0
+488,sijan.vision@gmail.com,sijan sirpali,DBA,Master,1,Low,Low,0
+489,tej4@gmail.com,tejendra,DBA,Bachelor,1,Low,Medium,1
+490,kul.gokul3@gmail.com,gokul giri,DBA,Bachelor,0,Medium,Medium,1
+491,bikash6@gmail.com,bikash chapagain,Developer,Master,2,High,High,1
+492,bk.bikash@gmail.com,bikash bishwokarma,Q.A,Bachelor,0,Low,High,0
+493,suman.budha@gmail.com,suman budhathoki,DBA,Bachelor,1,Medium,Low,0
+494,shresthabinay3@gmail.com,binay shrestha,Q.A,Master,1,Medium,Low,0
+495,midash9@gmail.com,midash thapa,Q.A,Bachelor,1,Low,Low,1
+496,yadav0@gmail.com,yadav gurung,DBA,Bachelor,2,Low,Low,0
+497,bipin09@gmail.com,bipin magar,Developer,Master,1,Medium,Low,0
+498,diwas.c@gmail.com,diwas chhantyal,Q.A,Bachelor,1,High,High,0
+499,saroj.thapa@gmail.com,saroj thapa,DBA,Master,1,Low,Medium,1
+500,bhumi.karna@gmail.com,bhumi karna magar,Developer,Master,1,Low,High,0
+501,thelight4@gmail.com,deepak magar,DBA,Master,2,Medium,Low,0
+502,samandhapyakurel@gmail.com,Sambandha pyakurel,Q.A,Bachelor,1,Medium,High,1
+503,sampadagiri@gmail.com,Sampada giri,Q.A,Bachelor,1,Medium,Medium,1
+504,tigerblack@gmail.com,Tara rai,Developer,Master,2,Low,High,1
+505,fancyaadhma@gmail.com,Aashma kuikel,Developer,Bachelor,1,High,Low,1
+506,cyiwbjnyd334@gmail.com,Gyan bahadur singh,Q.A,Master,1,Low,Low,0
+507,sunsunkajoo@gmail.com,Sunsun kasajoo,Developer,Master,2,High,High,1
+508,meghna23@gmail.com,MEGhna koirala,Developer,Bachelor,0,Low,Medium,0
+509,birinchikc@gmail.com,Birinchi kc,Q.A,Master,1,High,High,1
+510,abiralpandey45@gmail.com,Abiral pandey ,DBA,Bachelor,0,Medium,Low,0
+511,paribeshbasnet@gmail.com,Paribesh basnet,DBA,Bachelor,0,Medium,Low,0
+512,iradasingh@gmail.com,Irada singh,Q.A,Master,2,Medium,High,1
+513,grishmasapkota55@gmail.com,Grishma sapkota ,Developer,Master,1,High,High,1
+514,endritakc001@gmail.com,Endrita kc,DBA,Master,1,Medium,High,1
+515,shilpamaskey890@gmail.com,Shilpa maskey,Q.A,Bachelor,1,Medium,High,1
+516,purabsomarey@gmail.com,Purab somarey ,Developer,Bachelor,1,Low,Low,0
+517,loiuskdl2222@gmail.com,Louis kadel ,Developer,Bachelor,1,Medium,High,1
+518,nikeshpandey56@gmail.com,Nikesh pandey,Developer,Bachelor,2,High,High,1
+519,rashleenashrestha@gmail.com,Rashleena shreastha,DBA,Bachelor,2,Low,Low,0
+520,rasalamichhaney567@gmail.com,Rasa lamichaaney ,Developer,Master,1,High,Medium,1
+521,prasanshapokhrel@gmail.com,Prasansha pokhrel,Developer,Bachelor,1,Low,Low,0
+522,ashimshreemal@gmail.com,Asheem shreemal,DBA,Master,1,High,High,1
+523,praneshshrestha@gmail.com,Pranesh shrestha,DBA,Bachelor,0,Medium,Low,0
+524,shreesharegmi7@gmail.com,Shreesha regmi,DBA,Bachelor,1,Medium,Low,0
+525,rashiagrawal56@gmail.com,Rashi agrawal,Q.A,Bachelor,1,Medium,High,1
+526,umangkenzo@gmail.com,Umang maharjan ,Developer,Master,1,High,High,1
+527,shivammanandhar@gmail.com,Shiva manandhar,Q.A,Master,1,High,Low,0
+528,dibungrai11@gmail.com,Dibung rai ,DBA,Bachelor,2,Medium,Low,0
+529,prameegirl55@gmail.com,Pramee moktan,DBA,Bachelor,1,High,Low,1
+530,sumitjung@gmail.com,Sumit jung,Developer,Master,1,Medium,High,1
+531,ramanlage@gmail.com,Raman lagey ,DBA,Master,1,Medium,High,1
+532,jyotighising@gmail.com,Jyoti ghising,Q.A,Master,2,High,High,1
+533,bomjansakti@gmail.com,Shakti bomjan ,DBA,Bachelor,2,High,Medium,1
+534,gomanjoshi@gmail.com,Goman Joshi,DBA,Bachelor,1,Medium,Low,0
+535,sunitabom@gmail.com,Sunita bom ,DBA,Master,1,High,Medium,1
+536,tripti33@gmail.com,Tripti shakya ,Developer,Master,1,Low,Low,0
+537,tarunbibek@gmail.com,Tarun shah,DBA,Bachelor,2,Medium,Medium,1
+538,sangamadhikari@gmail.com,Sangam adhikari,Q.A,Master,1,Medium,Medium,1
+539,anjalimaskey@gmail.com,Anjali maskey,DBA,Bachelor,0,High,High,1
+540,rajababu628@gmail.com,Raja adhikari ,Q.A,Bachelor,2,Medium,Medium,1
+541,sornabdrkark@gmail.com,Sworna bdr karki ,DBA,Master,1,Medium,High,1
+542,bhuwangc@gmail.com,Bhuwan g.c ,DBA,Master,2,Low,High,1
+543,wagleyjamuna@gmail.com,Janina wagley ,DBA,Bachelor,1,High,Medium,1
+544,dimplesunar@gmail.com,Dimple sunar,DBA,Bachelor,1,Low,Low,0
+545,kritimaosti2@gmail.com,Kriti osti,Developer,Bachelor,1,Low,High,1
+546,juski@gmail.com,Juski thapa,Developer,Master,1,Medium,High,1
+547,swetakhatrii@gmail.com,Sweata khatri,Q.A,Bachelor,2,Medium,High,1
+548,phuyalsushmita@gmail.com,Sushmita phuyal ,DBA,Bachelor,1,High,High,1
+549,himalaynrishi@gmail.com,Rishi guragain ,Developer,Master,0,Medium,Low,0
+550,gopalarythm@gmail.com,Gopala rana ,DBA,Master,1,Medium,Low,0
+551,abhinjung@gmail.com,Abhin jung,DBA,Master,1,High,Medium,1
+552,maheshsapkota29@hotmail.com,Mahesh,DBA,Bachelor,0,Medium,Medium,1
+553,maheshsapkota29@hotmail.com,Mahesh,DBA,Bachelor,0,Medium,Medium,1
+554,rejinatamang22@gmail.com,Rejina,DBA,Bachelor,0,Low,Low,0
+555,rafikashrestha11@gmail.com,Rafika,Developer,Master,2,High,High,1
+556,sonamlama33@gmail.com,Sonam,Q.A,Bachelor,1,High,Medium,1
+557,maheshtripathi94@gmail.com,Mahesh,Q.A,Master,2,High,Medium,1
+558,rachanasubedi90@gmail.com,Rachana,Developer,Bachelor,1,Medium,Medium,1
+559,rohitshrestha32@gmail.com,Rohit,Developer,Master,2,High,Medium,1
+560,rafikrain62@gmail.com,Rafik,Q.A,Master,1,Medium,High,1
+561,niroshamal21@gmail.com,Niros,DBA,Bachelor,0,Medium,Low,1
+562,niroshamal21@gmail.com,Niros,DBA,Bachelor,0,Medium,Low,1
+563,swati.mahat2@gmail.com,Swati mahat,Developer,Master,1,Medium,Medium,0
+564,vijay.bohara@gmail.com,Vijay bohara,Q.A,Master,1,Medium,Low,1
+565,akajal102@gmail.com,Kajal agrawal,DBA,Bachelor,1,Medium,Medium,0
+566,doc.vidhya@gmail.com,Vidhya devi,Q.A,Master,2,High,Medium,0
+567,kusum.dahal@gmail.com,Kusuk dahal,DBA,Bachelor,0,Medium,Low,0
+568,mahendra8@gmail.com,Mahendra barma,DBA,Bachelor,1,Low,Low,0
+569,boss.vijaya@gmail.com,Vijaya dhakal,DBA,Master,2,Medium,High,0
+570,aditya.acharya2@gmail.com,Aditya acharya,DBA,Bachelor,1,Medium,High,1
+571,bikram.singh@gmail.com,Bikram singh,DBA,Master,0,High,Medium,0
+572,asmita.adh@gmail.com,Asmita adhikari,Q.A,Master,0,Low,Low,1
+573,sudarsan.thapa@gmail.com,Sudarsan thapa,DBA,Bachelor,1,Medium,Low,1
+574,biplab.nepal@gmail.com,Biplab nepal,Q.A,Master,1,Medium,High,1
+575,swosti.dahal@gmail.com,Swosti dahal,Q.A,Master,2,Medium,Low,1
+576,swostika01@gmail.com,Swostika,DBA,Master,1,Medium,Low,0
+577,aruna.dhakal@gmail.com,Aruna dhakal,DBA,Master,1,Low,Medium,0
+578,biswas9@gmail.com,Biswas gurung,DBA,Bachelor,2,Low,Low,0
+579,samyukta01@gmail.com,Samyukta poudel,Q.A,Master,0,Low,High,0
+580,sandeepa.chhetri@gmail.com,Sandeepa chhetri,DBA,Master,0,Low,High,0
+581,samyog.dhital9@gmail.com,Samyog dhital,DBA,Master,1,High,Medium,0
+582,devajay90@gmail.com,Ajay singh,Q.A,Bachelor,0,Medium,High,0
+583,swosti0@gmail.com,Swosti mahat,DBA,Bachelor,2,Medium,High,0
+584,sudinpoudel@gmail.com,Sudin poudel,DBA,Bachelor,1,Low,Medium,0
+585,susmita.poudel@gmail.com,Susmitq poudel,DBA,Master,2,High,Medium,0
+586,kunjaja@gmail.com,Kunjana hamal,Q.A,Bachelor,1,High,Medium,0
+587,subina9@gmail.com,Subina hamal,DBA,Bachelor,2,Medium,Low,0
+588,kismat5@gmail.com,Kismat shrestha,Developer,Bachelor,1,Medium,High,0
+589,krishna0@gmail.com,Krishna kumar,Developer,Master,2,Medium,Medium,0
+590,madhuripanta6@gmail.com,Madhuri panta,Q.A,Bachelor,1,Medium,Low,0
+591,dilndrkhagi@gmail.com,Dil bahadur khadgi ,DBA,Bachelor,1,Low,Low,0
+592,dilkumariwaiba@gmail.com,Dil kumari,Q.A,Master,1,High,High,1
+593,sonamlhama@gmail.com,Sonam lhama ,DBA,Master,2,Low,Low,0
+594,rajkumar@gmail.com,Rajkumar dhital,DBA,Bachelor,1,Medium,High,1
+595,mycupoftea@gmail.com,Carol kattel ,Developer,Master,0,Medium,Low,0
+596,junelikc@gmail.com,Juneli kc,DBA,Master,2,Medium,High,1
+597,mike123@gmail.com,Mike Raya,Developer,Bachelor,1,Medium,High,0
+598,unisha.ale123@gmail.com,Unisha Ale,DBA,Master,0,Low,Medium,1
+599,prabin.raya321@gmail.com,Prabin Raya,DBA,Bachelor,2,Medium,High,0
+600,dilendra.gharti123@gmail.com,Dilendra Gharti Magar,Developer,Bachelor,1,Medium,Medium,0
+601,happybhagjayegi@gmail.com,honey sharma,Q.A,Master,1,Medium,High,1
+602,bengaltiger@gmail.com,Raju poudel ,DBA,Bachelor,2,Low,Low,0
+603,samiscool@gmail.com,Samir jung kunwar ,DBA,Bachelor,1,Low,Low,0
+604,gulabimutu@gmail.com,Gunjan khadka ,Developer,Master,2,High,Medium,1
+605,mansaantaxa@gmail.com,Man bdr gc ,Developer,Bachelor,2,Medium,Medium,1
+606,sushantkhand43@gmail.com,Sushant khand ,DBA,Master,2,Medium,High,0
+607,jindagigood@gmail.com,Aalia kuikel ,DBA,Bachelor,0,Low,Low,0
+608,paayalrai@gmail.com,Paayal rai ,Q.A,Master,1,Medium,High,1
+609,levernepal@gmail.com,laiva nepal,Developer,Bachelor,1,Low,Low,0
+610,swostimaadhikari@gmail.com,Swostima adhikari ,DBA,Bachelor,1,Medium,High,1
+611,soltifunny@gmail.com,Saugat gurung,Developer,Master,1,Medium,High,0
+612,sagungurung45@gmail.com,Sagoon gurung ,DBA,Master,1,Medium,Medium,0
+613,moonlight@gmail.com,Luna sakya ,Q.A,Bachelor,0,Low,Medium,1

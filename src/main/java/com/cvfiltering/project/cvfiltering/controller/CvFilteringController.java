@@ -7,9 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
-import java.util.List;
 
-@CrossOrigin
 @RestController
 @RequestMapping(value = "/api/jobseeker")
 public class CvFilteringController {
@@ -21,9 +19,16 @@ public class CvFilteringController {
 
     @PostMapping("/dt")
     public ResponseEntity<?> decisionTreeAlgorithm(@RequestBody InputDataDTO inputDataDTO)throws IOException{
+        System.out.println(inputDataDTO);
         String response = algorithmicService.algorithmicCompution(inputDataDTO);
+        System.out.println(response);
         return new ResponseEntity<Object>(response, HttpStatus.OK);
 
     }
+//
+//    @GetMapping("/")
+//    public ResponseEntity<?> getJobSeekeer() {
+//
+//    }
 
 }

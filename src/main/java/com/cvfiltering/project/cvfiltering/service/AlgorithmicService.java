@@ -53,7 +53,7 @@ public class AlgorithmicService {
         //for training
         if (training == true) {
             String filename = "train.csv";
-            InputStreamReader stream = new InputStreamReader(new FileInputStream(new File("src/main/java/com/cvfiltering/project/cvfiltering/service" + filename)));
+            InputStreamReader stream = new InputStreamReader(new FileInputStream(new File("src/main/java/com/cvfiltering/project/cvfiltering/" + filename)));
             try (ICsvListReader listReader = new CsvListReader(stream, CsvPreference.STANDARD_PREFERENCE);) {
 
                 // the header elements are used to map the values to the bean (names must match)

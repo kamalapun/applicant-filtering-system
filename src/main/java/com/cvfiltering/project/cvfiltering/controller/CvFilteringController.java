@@ -21,7 +21,7 @@ public class CvFilteringController {
 
     @PostMapping("/dt")
     public ResponseEntity<?> decisionTreeAlgorithm(@RequestBody InputDataDTO inputDataDTO)throws IOException{
-        List<String> response = algorithmicService.algorithmicCompution(inputDataDTO);
+        String response = algorithmicService.algorithmicCompution(inputDataDTO);
         return new ResponseEntity<Object>(response, HttpStatus.OK);
 
     }
